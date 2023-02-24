@@ -1,0 +1,133 @@
+,Filename,Noun Freq,Verb Freq,Adj Freq,Adv Freq,Unique PER,Unique LOC,Unique ORG
+0,0100.a1.txt,1533.05,1223.63,801.69,534.46,set(),set(),set()
+0,0101.a1.txt,1166.88,1242.16,589.71,840.65,{'Bo Kaspers Orkester'},set(),set()
+0,0102.a1.txt,1485.03,1197.6,682.63,479.04,{'gramar'},set(),set()
+0,0103.a1.txt,1097.56,1363.64,598.67,576.5,{'Eng'},set(),{'the Sky Channel'}
+0,0104.a1.txt,1320.99,1197.53,567.9,679.01,set(),{'Europe'},"{'Spot', 'the U.S. Naval Academy'}"
+0,0105.a1.txt,1251.55,1400.25,619.58,644.36,"{'comfertable', 'Stephen King'}",set(),"{'Oxford', 'University'}"
+0,0106.a1.txt,1541.31,1294.7,838.47,875.46,{'grammaticaly'},set(),set()
+0,0107.a1.txt,1211.7,1448.47,891.36,612.81,set(),set(),set()
+0,0108.a1.txt,1248.36,1327.2,446.78,630.75,{'lazier'},set(),set()
+0,0109.a1.txt,1295.22,1353.56,711.79,676.78,set(),set(),set()
+0,0110.a1.txt,1437.74,1399.23,834.4,667.52,{'Grammar'},set(),set()
+0,0111.a1.txt,1432.16,1381.91,703.52,716.08,set(),set(),{'American TV'}
+0,0112.a1.txt,1314.22,1278.38,788.53,681.0,set(),set(),{'listeng'}
+0,0113.a1.txt,1349.51,1281.27,735.41,894.62,set(),set(),"{'Spot', 'kabel TV'}"
+0,0114.a1.txt,1196.91,1531.53,617.76,913.77,set(),set(),set()
+0,0115.a1.txt,1377.95,1154.86,813.65,800.52,set(),set(),{'Canadian High School'}
+0,0116.a1.txt,1338.24,1426.47,632.35,852.94,set(),set(),set()
+0,0118.a1.txt,1304.35,1317.52,632.41,658.76,set(),set(),{'CSN'}
+0,0119.a1.txt,1272.04,1385.39,793.45,730.48,set(),set(),set()
+0,0120.a1.txt,1293.66,1474.77,672.7,827.94,"{'Romeo', 'Shakespeare', 'Juliet'}",set(),set()
+0,0121.a1.txt,1386.93,1366.83,703.52,633.17,set(),set(),"{'the Uppsala University', 'Department'}"
+0,0122.a1.txt,1548.95,1400.25,693.93,706.32,set(),set(),{'English C'}
+0,0123.a1.txt,1245.24,1359.59,597.2,775.1,{'Tony Blair'},set(),set()
+0,0124.a1.txt,1631.75,1069.46,738.7,595.37,set(),"{'South', 'Baltic', 'North'}","{'PFP', 'the US Coast Guard', 'Royal Swedish Navy'}"
+0,0125.a1.txt,1828.84,1113.72,844.08,586.17,set(),{'Asia'},set()
+0,0127.a1.txt,1141.3,1426.63,611.41,855.98,set(),set(),set()
+0,0128.a1.txt,1362.53,1216.55,644.77,729.93,set(),set(),set()
+0,0130.a1.txt,1401.03,1131.11,874.04,681.23,{'Achilles'},set(),{'the University of Uppsala'}
+0,0131.a1.txt,1374.35,1479.06,785.34,510.47,set(),set(),set()
+0,0133.a1.txt,1108.46,1370.68,560.19,822.41,set(),set(),set()
+0,0134.a1.txt,1355.93,1246.97,726.39,1162.23,set(),set(),set()
+0,0135.a1.txt,1551.48,902.68,846.26,648.8,set(),set(),"{'the Senior High School', 'ILU', 'Junior High School', 'the Junior High School'}"
+0,0136.a1.txt,1491.53,1209.04,553.67,655.37,set(),{'Colwyn Bay'},set()
+0,0137.a1.txt,1109.73,1234.41,822.94,847.88,set(),set(),"{'Pauliskolan in', 'Fabius Junior-Senior High School'}"
+0,0138.a1.txt,1370.87,1272.95,758.87,722.15,{'Kibbutz'},set(),set()
+0,0139.a1.txt,1078.68,1573.6,532.99,685.28,set(),set(),set()
+0,0140.a1.txt,1457.7,1314.98,795.11,509.68,"{'Patricia', 'John Brown', 'Pamela', 'Jenna', 'Bobby'}",set(),set()
+0,0142.a1.txt,1576.82,1307.28,768.19,336.93,set(),set(),"{'University', 'International Marketing', 'Market System and International Marketing'}"
+0,0143.a1.txt,1435.64,1287.13,668.32,705.45,{'wich'},set(),{'neighter'}
+0,0144.a1.txt,1125.32,1253.2,677.75,792.84,{'Welsh'},set(),"{'the Stockholm Secondary School of Music', 'International Baccalaureates', 'BBC Radio'}"
+0,0145.a1.txt,1602.41,1180.72,674.7,734.94,set(),set(),set()
+0,0146.a1.txt,1171.17,1544.4,566.28,643.5,set(),set(),set()
+0,0148.a1.txt,1382.01,1199.48,912.65,704.04,set(),set(),set()
+0,0149.a1.txt,1243.93,1243.93,738.58,738.58,{'Ossett'},set(),set()
+0,0151.a1.txt,968.17,1578.25,530.5,742.71,{'Grammar'},set(),set()
+0,0152.a1.txt,1389.5,1258.21,733.04,678.34,set(),set(),set()
+0,0155.a1.txt,1028.15,1554.47,734.39,820.07,set(),set(),set()
+0,0156.a1.txt,968.17,1485.41,636.6,755.97,{'differenly'},set(),set()
+0,0157.a1.txt,1131.22,1572.4,542.99,486.43,set(),set(),set()
+0,0158.a1.txt,1181.49,1522.53,633.37,645.55,set(),set(),set()
+0,0159.a1.txt,1088.27,1378.48,568.32,737.61,set(),set(),{'Uppsala University'}
+0,0161.a1.txt,1493.67,1202.53,886.08,468.35,set(),set(),set()
+0,0162.a1.txt,1210.27,1259.17,660.15,611.25,set(),set(),{'yars'}
+0,0163.a1.txt,1356.59,1124.03,568.48,956.07,set(),set(),set()
+0,0164.a1.txt,1622.97,1186.02,699.13,574.28,set(),set(),set()
+0,0165.a1.txt,1472.87,1107.42,675.53,553.71,"{""Roald Dahl's""}",set(),set()
+0,0167.a1.txt,1268.5,1173.36,634.25,940.8,{'den går där'},set(),"{'the Cambridge First Certificate', 'the South Oxfordshire Technical College'}"
+0,0168.a1.txt,1387.5,1337.5,587.5,875.0,set(),set(),set()
+0,0169.a1.txt,1395.91,1323.71,661.85,553.55,set(),set(),"{'CNN', 'BBC'}"
+0,0171.a1.txt,1386.6,1351.35,611.05,705.05,set(),{'Europe'},{'Liberal Arts'}
+0,0172.a1.txt,1319.8,1142.13,761.42,710.66,"{'teve', 'Helene', 'John', 'Skeppsholmens folkhögskola', 'William Shakespeare', 'Laurence Olivier', 'Yngve', 'Richard III', 'Shakespeare', 'Unfortunely John', 'I.', 'Aldous Huxley'}",set(),set()
+0,0173.a1.txt,1315.47,1254.57,730.82,609.01,"{'Cathy', 'Shakespeare', 'Woolf', 'Heathcliff'}",set(),"{'CNN', 'Oxford', 'Friends'}"
+0,0174.a1.txt,1388.89,1570.05,591.79,519.32,"{'Ellis Peters', 'Beatles'}",set(),set()
+0,0175.a1.txt,1105.53,1407.04,628.14,753.77,set(),set(),{'University'}
+0,0176.a1.txt,1408.14,1243.12,649.06,682.07,set(),set(),{'Visingsö Folk High School'}
+0,0177.a1.txt,1009.62,1370.19,697.12,625.0,"{'more""noggrant'}",set(),set()
+0,0178.a1.txt,1275.3,1072.87,678.14,860.32,set(),set(),{'University'}
+0,0179.a1.txt,1191.71,1424.87,544.04,556.99,set(),set(),set()
+0,0180.a1.txt,1251.56,1451.81,688.36,738.42,set(),set(),"{'Upper Secondary School', 'Ekeby school', 'the Bilingual Social Science Programme'}"
+0,0182.a1.txt,1603.42,1356.74,654.65,626.19,"{'Axminster', 'David Lodge', 'Wilton', 'Doris Lessing', 'Cleo Laine'}",set(),{'the English Department'}
+0,0185.a1.txt,1548.95,1065.68,743.49,532.84,{'MVG'},set(),{'Disney'}
+0,0186.a1.txt,1234.26,1448.36,478.59,793.45,"{'Winston Churchill', 'Adam'}",set(),{'the Department of Nordic Languages'}
+0,0187.a1.txt,1298.7,1428.57,753.25,753.25,set(),set(),{'the Cambridge Certificate in Advanced English'}
+0,0188.a1.txt,1138.31,1297.43,648.71,673.19,"{""John Grisham's""}",set(),"{'University', 'Primary School'}"
+0,0189.a1.txt,1185.81,1297.85,625.58,522.88,{'debateprograms'},set(),{'CNN'}
+0,0190.a1.txt,1189.54,1464.05,588.24,522.88,{'Clinton'},{'Komvux'},{'Newsweek'}
+0,0191.a1.txt,1257.49,1365.27,754.49,682.63,set(),set(),"{'CNN', 'American Social Studies'}"
+0,0192.a1.txt,935.18,1360.26,712.01,690.75,set(),set(),"{""haven''t""}"
+0,0193.a1.txt,1212.9,1458.06,787.1,541.94,set(),{'Earth'},{'the Cambridge Exam'}
+0,0194.a1.txt,1109.97,1469.68,791.37,688.59,{'David Lodge'},set(),{'the institute of education I'}
+0,0195.a1.txt,1254.61,1500.62,639.61,578.11,set(),set(),set()
+0,0196.a1.txt,1234.29,1280.0,731.43,594.29,"{'Paul', 'Karin', 'Cheryl', 'Morag', 'Jenny', 'Luckily Jenny'}",set(),set()
+0,0197.a1.txt,1405.47,1281.09,671.64,572.14,set(),set(),set()
+0,0198.a1.txt,1317.28,1402.27,609.07,495.75,"{'Big Ben', ""Madame Tussaud's""}",set(),{'Tottenham Hotspurs'}
+0,0199.a1.txt,1388.54,1464.97,522.29,700.64,"{'Welsh', 'Huxtable', 'Dolly Parton', 'Tom Cleese British', 'Cosby'}",set(),set()
+0,0200.a1.txt,1261.17,1320.75,774.58,705.06,"{'Dickens', 'Shakespeare', 'Austen'}",{'Caribbean'},{'Oxford'}
+0,0201.a1.txt,1079.62,1417.0,607.29,688.26,"{'Brittish English', 'David Lodge'}",set(),set()
+0,0202.a1.txt,1502.96,1171.6,627.22,568.05,set(),set(),{'the Agricultural University'}
+0,0203.a1.txt,1487.7,1252.8,626.4,503.36,"{'Cornish', 'Bonnie', 'Diana', 'Charles'}",set(),{'un'}
+0,0204.a1.txt,1466.99,1112.47,611.25,513.45,{'Björn Skifs'},set(),{'CNN'}
+0,0205.a1.txt,1262.46,1461.79,708.75,642.3,"{'centainly', 'beacuase'}",set(),set()
+0,0206.a1.txt,1068.21,1299.87,592.02,579.15,set(),set(),"{'travell', 'persume'}"
+0,0207.a1.txt,1215.19,1443.04,594.94,556.96,{'Nice'},set(),set()
+0,0208.a1.txt,1427.3,1141.84,820.7,642.28,"{'\x03&in', 'li'}",set(),"{'\x03[ngland', 'Edinburgh'}"
+0,0209.a1.txt,1309.23,1172.07,598.5,573.57,"{""George Orwel's""}",set(),"{'Upper Secondary School', 'Animal Farm', 'Upper secondary School'}"
+0,0212.a1.txt,1335.83,1073.66,649.19,811.49,set(),set(),set()
+0,0213.a1.txt,1400.73,1400.73,828.26,548.11,set(),set(),"{'British-', 'Englishclasses'}"
+0,0214.a1.txt,1169.45,1264.92,584.73,823.39,{'Bean'},set(),set()
+0,0215.a1.txt,1226.33,1190.26,441.84,595.13,"{'Paul', 'Hugh', 'försäkringskassan', 'Andrew', 'Origami', 'Roberto Benini', 'Grant', 'Emir Kustrica', 'Beowulf', 'Krystof Kieslowski'}",{'Southern California'},"{'Contemporary School', 'Home Improvement and Dream', 'the National Geographic', 'the Canterbury Tales', 'Sheepfarm', 'the International Committee', 'ER', 'Ontario High School', 'Norrlands Nation', 'Vanity Fair'}"
+0,0216.a1.txt,1363.64,1300.51,694.44,340.91,{'Laura Ingalls'},set(),{'American TV'}
+0,0217.a1.txt,1174.9,1214.95,841.12,587.45,set(),set(),set()
+0,0218.a1.txt,1404.36,1452.78,714.29,447.94,set(),set(),set()
+0,0219.a1.txt,1457.83,1156.63,698.8,626.51,set(),set(),set()
+0,0221.a1.txt,1308.18,1408.81,666.67,616.35,{'A.E. \n'},{'KOMVUX'},"{'Compulsory school', 'B.E.', 'KOMVUX'}"
+0,0222.a1.txt,1433.39,1365.94,741.99,489.04,set(),set(),{'Bearkly University'}
+0,0223.a1.txt,1308.56,1195.48,807.75,613.89,set(),set(),set()
+0,0224.a1.txt,1220.78,1207.79,636.36,623.38,{'radioprograms'},set(),{'the Jerusalem Post'}
+0,0226.a1.txt,1467.53,1129.87,896.1,688.31,set(),set(),set()
+0,0227.a1.txt,1322.31,1404.96,684.77,602.13,{'mentioned-'},set(),{'H.P Lovecraft'}
+0,0232.a1.txt,1347.61,1322.42,680.1,780.86,"{'James', 'Britons', 'Elisabeth George', 'Kate'}",set(),{'Agatha Christie'}
+0,0233.a1.txt,1284.4,1153.34,786.37,563.56,set(),set(),{'gholies'}
+0,0234.a1.txt,1452.66,1387.81,674.45,531.78,set(),set(),set()
+0,0235.a1.txt,1602.14,1108.14,761.01,467.29,set(),set(),set()
+0,0236.a1.txt,1099.05,1506.11,583.45,637.72,set(),set(),set()
+0,0238.a1.txt,1187.1,1432.26,696.77,400.0,set(),set(),{'University'}
+0,1001.a1.txt,1658.16,1224.49,739.8,408.16,set(),set(),set()
+0,1003.a1.txt,1502.29,1364.68,733.94,493.12,set(),set(),set()
+0,1004.a1.txt,1382.86,1245.71,708.57,628.57,"{""Johnny Hart's""}",set(),"{""Plato's Republic"", 'the University of Newcastle upon Tyne', 'UNT', 'Emmerdale', 'Fawlty Towers'}"
+0,1005.a1.txt,1529.93,1164.08,709.53,720.62,set(),set(),{'Time'}
+0,1006.a1.txt,1220.56,1349.04,770.88,535.33,"{'kom tillbaka med min äppelpaj', 'Dennis', 'McCahens'}",set(),set()
+0,1007.a1.txt,1373.91,1304.35,573.91,539.13,{'John Steinbeck'},set(),"{'U.K', 'Times', 'Emmerdale'}"
+0,1008.a1.txt,1468.86,1316.1,564.04,634.55,{'Grammar'},set(),set()
+0,1009.a1.txt,1668.7,1242.39,645.55,450.67,"{'Malcolm MacDowell', 'Alan Wilder', ""Peter O'Toole""}",set(),"{'Depeche Mode', 'P.G. Wodehouse', 'Time'}"
+0,1010.a1.txt,1277.96,1277.96,726.84,567.09,"{'Emma Thompson', 'Magnus', 'Anthony Hopkings'}",set(),"{'Nice Work', 'the university of Uppsala'}"
+0,1012.a1.txt,1627.03,1138.92,713.39,675.84,set(),set(),set()
+0,1013.a1.txt,1087.47,1193.85,626.48,839.24,"{'Hanna', 'Erling'}",set(),{'Visingsö Folk High School'}
+0,1014.a1.txt,1439.17,1439.17,712.17,593.47,set(),set(),"{'Library', 'WWW', 'Search'}"
+0,1016.a1.txt,1070.59,1082.35,694.12,776.47,set(),set(),set()
+0,1017.a1.txt,1446.61,1400.69,780.71,792.19,set(),{'Western Australia'},set()
+0,1018.a1.txt,1598.0,1260.92,911.36,561.8,"{'Jane Austen', 'Enid Blyton', 'Slang'}",set(),{'Upper Secondary School'}
+0,1019.a1.txt,1562.25,1098.45,716.03,764.85,"{'Dickens', 'Walter Mosley', 'Elmore Leonard', 'Stephen King', 'Jules Verne', 'Cosby'}",set(),"{'MTV', 'Uppsala University', 'American TV', 'NBC'}"
+0,1020.a1.txt,1250.0,1328.12,572.92,598.96,"{'Ally McBeal', 'Romeo', 'Oprah', 'Juliet'}",set(),"{'Romeo', 'MTV'}"
