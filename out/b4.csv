@@ -1,4 +1,5 @@
 Filename,Noun Freq,Verb Freq,Adj Freq,Adv Freq,Unique PER,Unique LOC,Unique ORG
+<<<<<<< HEAD
 1021.b4.txt,1370.91,1081.49,479.82,403.66,11,0,4
 0105.b4.txt,1209.26,1166.38,523.16,548.89,13,0,4
 1069.b4.txt,1254.1,1172.13,557.38,704.92,8,0,6
@@ -28,3 +29,34 @@ Filename,Noun Freq,Verb Freq,Adj Freq,Adv Freq,Unique PER,Unique LOC,Unique ORG
 1532.b4.txt,1192.2,1148.84,390.17,520.23,13,0,4
 2034.b4.txt,1316.78,872.84,632.05,361.17,13,0,5
 2030.b4.txt,1306.78,1160.03,489.17,419.29,11,0,4
+=======
+0103.b4.txt,1336.37,1138.95,592.26,455.58,"{'Antony', 'Pompey', 'William Shakespeare', 'Cassius', 'Caesar', 'Brutus', 'Julius Caesar'}",set(),"{'Casca', 'Caesar'}"
+0105.b4.txt,1209.26,1166.38,523.16,548.89,"{'Brutus Mark Antony', 'Trebonius', 'Antony', 'Cassius', 'Mark Antony', 'Caesar', 'Octavius Caesar', 'Brutus', 'Metellus', 'contriver', 'Caius', 'Julius Caesar \nThe', 'Julius Caesar'}",set(),"{'Cicero', 'Decius', 'Caesar', 'Caesars'}"
+0107.b4.txt,1806.45,1240.14,652.33,243.73,"{'harry', 'Eddon Gurney', 'Natalie Harris', 'Alice', 'Ben', 'Weldon', 'Fay Weldon', 'Natalie', 'Harry', 'Sonia'}",set(),"{'Society', 'Department of Health and Social Security', 'Volvo', 'Woolworths', 'The Heart of the Country', 'Low Income Family Supplement'}"
+0139.b4.txt,1523.49,1073.83,516.78,308.72,"{'Publius', 'Pompey', 'Antony', 'Cassius', 'Octavius Caesar', 'Caesar', 'Brutus', 'Wilt', 'Julius Caesar'}",set(),"{'Calphurnia', 'senate', 'Decius', 'Caesar', 'Casca', 'Capitol', ""Caesar's""}"
+0140.b4.txt,1162.41,1129.43,395.71,469.91,"{""Mark Antony's"", 'Antony', 'Trebonius', 'Cassius', 'Mark Antony', 'Caesar', 'Brutus', 'Metellus', 'Caius', 'Julius Caesar'}",set(),"{'Ceasar', 'Decius', 'Caesar', 'Roman', 'Cicero'}"
+0158.b4.txt,1377.87,1203.9,605.43,563.67,"{'Brookner', 'Tom Rivers', 'Characteraization', 'Anita Brookner', 'miriam', 'Jane', 'Rochester', 'Miriam', 'Rivers', 'Jane Eyre', 'Beatrice', 'Simon', 'beatrice', 'Tom'}",set(),{'Beatrice'}
+0165.b4.txt,1168.73,998.45,433.44,371.52,"{'Julius Caesar \nAfter', 'Trebonius', 'Antony', 'Cassius', 'Mark Antony', 'Caesar', 'Brutus', 'Metellus', 'contriver', 'Shakespeare'}",set(),"{'Decius', 'Caesar', 'Casca', 'I.2.201-2', 'Cicero'}"
+0178.b4.txt,1532.88,1089.15,653.49,625.25,"{'Charlie', 'Tony Marston', 'Tony', 'Charlie Slatter', ""Doris Lessing's"", 'White', 'Doris Lessing', 'Moses', 'Mary', 'Dick', 'Dick Turner'}",set(),set()
+0200.b4.txt,1229.28,959.94,704.42,718.23,"{'Pompey', 'Cassius', 'Caesar', 'Brutus', 'Antonius', 'Marcus Antonius', 'Julius Caesar', ""Marcus Antonius'"", 'Caesar (I. ii'}",set(),"{'Action', 'Caesar'}"
+0219.b4.txt,1533.46,920.07,483.27,418.22,"{'Muriel Spark', 'Judas', ""Lowther's(the"", 'Rose', 'Jesus', 'Mary', 'Brodie', 'Hitler', 'Charlotte Brontë', 'Mussolini', 'Muriel Sparks', 'Sandy', 'Lloyd', 'Jenny', 'Eunice', 'Jean Brodie'}",set(),"{'the Marcia Blaine School', 'Spark'}"
+0300.b4.txt,1581.59,1112.97,451.88,334.73,"{'Publius', 'Pompey', 'Trebonius', 'William Shakespeare', 'Cassius', 'Mark Antony', 'Caesar', 'Brutus', 'Metellus', 'Norman Sanders', 'Julius Caesar'}",set(),"{'Brute', 'Olympus', 'Caesar', 'Senate', 'Brutus', 'Unshaked'}"
+0308.b4.txt,1353.9,1036.85,531.28,565.55,"{'Cassius', 'Walk', 'Caesar', 'Brutus', 'Julius Caesar', 'Julius Caesar \nMy', ""William Shakespeare's""}",set(),{'Colossus'}
+0310.b4.txt,1522.49,1107.27,663.21,397.92,"{'Antony', 'Trebonius', 'William Shakespeare', 'Cassius', 'Mark Antony', 'Caesar', 'Brutus', 'hounourableness', 'Caius', 'Shakespeare', 'Julius Caesar \nThe', 'Julius Caesar'}",set(),"{'Cicero', 'Caesar'}"
+0318.b4.txt,1406.76,939.38,374.83,351.69,"{'Muriel Spark', 'Freddy', 'Suzi Ramdez', 'Mandelbaum', 'Rickward', 'Joanna', 'Joe Ramdez', 'Barbara Vaughn', 'Suzi', 'Barbara', ""Muriel Spark's"", 'Abdul', 'Vaughan', 'Ricky'}",set(),"{'the Catholic Church', 'Identity', 'Spark'}"
+1003.b4.txt,1572.2,1153.85,492.58,209.18,"{'Pompey', 'Antony', 'Cassius', 'Caesar', 'Brutus', 'Caesars'}",set(),"{'Brutus', 'Cicero', 'Caesar'}"
+1021.b4.txt,1370.91,1081.49,479.82,403.66,"{""Mark Antony's"", 'Antony', 'William Shakespeare', 'Cassius', 'Mark Antony', 'Caesar', 'Brutus', 'Metellus', 'justful', 'Julius Caesar', ""William Shakespeare's""}",set(),"{'Julius Caesar-¡Act II', 'Cicero', 'Caesar', 'Casca'}"
+1023.b4.txt,1253.2,946.29,805.63,792.84,"{'Rosamond Oliver - and', 'Rosamond Oliver', 'Blanche', 'Jane', 'Rochester', 'Blanche Ingram', 'Jane Eyre', 'Rosamond', 'Bertha Rochester'}",set(),"{'Blanche Ingram', 'Blanche', 'Thornfield Hall'}"
+1057.b4.txt,1428.57,1128.83,465.56,350.77,"{'Lucius', 'Antony', 'Caesar', 'Brutus', 'Portia', 'Julius Caesar - A', 'Julius Caesar'}",set(),"{""Caesar's"", 'Caesar'}"
+1069.b4.txt,1254.1,1172.13,557.38,704.92,"{'Antony', 'Cassius', 'Mark Anthony', 'Mark Antony', 'Caesar', 'Brutus', 'Metellus', 'shrewed contriver'}",set(),"{'Decius', 'Caesar', 'Caesar,\n\t Should', 'Roman', 'Cicero', 'KILL'}"
+1097.b4.txt,1475.41,1081.97,557.38,465.57,"{'Antony', 'Cassius', 'Caesar-', 'Mark Antony', 'Caesar', 'Octavius Caesar', 'Brutus', 'Caius Cassius', 'Caius', 'Julius Caesar', 'Caesar \nAnd'}",set(),"{'II.i.167', 'Cicero', 'Caesar'}"
+1100.b4.txt,1514.61,1062.89,478.3,301.15,"{'William Shakespeare', 'Cassius', 'Caesar', 'Brutus', 'Julius Caesar'}",set(),"{'Caesar (Act one', 'Caesar'}"
+1112.b4.txt,1344.81,1210.96,446.14,420.65,"{'Antony', 'Trebonius', 'Cassius', 'Mark Antony', 'Caesar', 'Metellus Cimber', 'Brutus', 'Decius Brutus', 'Caius Cassius', 'Julius Caesar', ""William Shakespeare's""}",set(),"{'Cicero', 'Cassius - An Analysis', 'Caesar'}"
+1508.b4.txt,1290.09,1093.29,488.34,313.41,"{'Pompey', 'Antony', 'Cassius', 'Caesar', 'Lupercal', 'Brutus', 'W. Julius Caesar', 'Roman', 'Wilfred Owen', 'Shakespeare', 'Julius Caesar', 'Julius Caesar \nShakespeare'}",set(),"{'Colossus', 'Calphurnia', 'Caesar'}"
+1520.b4.txt,1274.63,966.75,578.82,406.4,"{'Cassius', 'Caesar', 'Brutus', 'Julius Caesar'}",set(),"{'Colossus', 'Caesar', 'senate'}"
+1528.b4.txt,1389.45,1142.28,527.72,527.72,"{'William Shakespeare', 'Cassius', 'Caesar-', 'Mark Antony', 'Caesar', 'Brutus', 'Caius', 'Julius Caesar'}",set(),"{'Cassius', 'Cicero', 'Caesar'}"
+1532.b4.txt,1192.2,1148.84,390.17,520.23,"{'Antony', 'Trebonius', 'William Shakespeare', 'Cassius', 'Caesar-', 'Mark Antony', 'Caesar', 'BRUTUS', 'Brutus', 'Metellus', 'Caius Cassius', 'Caius', 'Julius Caesar'}",set(),"{'Cicero', 'Decius', 'CASSIUS', 'Caesar'}"
+2018.b4.txt,1243.86,1358.43,409.17,368.25,"{'Antony', 'Antonys', 'Caesar', 'Brutus', 'Act III.ii', 'Shakespeare', 'Julius Caesar Close', 'Caesars', 'Caeser'}",set(),"{'Brutus', 'III.ii', 'Caesar'}"
+2030.b4.txt,1306.78,1160.03,489.17,419.29,"{'Julius Caesar \nI', 'Cassius', 'Caesar!\n', 'Mark Anthony', 'Caesar', 'Brutus', 'Roman', 'contriver', 'Shakespeare', 'Anthony', 'Julius Caesar'}",set(),"{'Brutus', 'Cicero', 'Caesar', 'Roman'}"
+2034.b4.txt,1316.78,872.84,632.05,361.17,"{""Mark Antony's"", 'Antony', 'William Shakespeare', 'Cassius', 'Mark Antony', 'Caesar', 'Brutus', 'Metellus', 'Roman', 'contriver', 'Caius', 'Shakespeare', 'Julius Caesar'}",set(),"{'JULIUS CAESAR', 'Caesar', 'Casca', 'Roman', 'Cicero'}"
+>>>>>>> ddaaa507a569b69cdc2a51d78afc9efd6fec5fdb

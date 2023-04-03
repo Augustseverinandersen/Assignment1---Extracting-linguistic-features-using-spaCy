@@ -1,4 +1,5 @@
 Filename,Noun Freq,Verb Freq,Adj Freq,Adv Freq,Unique PER,Unique LOC,Unique ORG
+<<<<<<< HEAD
 0223.a5.txt,1586.94,1032.65,675.78,387.24,6,2,6
 0182.a5.txt,2265.06,1076.31,738.96,425.7,7,0,2
 2026.a5.txt,1791.04,839.55,736.94,438.43,4,5,1
@@ -113,3 +114,119 @@ Filename,Noun Freq,Verb Freq,Adj Freq,Adv Freq,Unique PER,Unique LOC,Unique ORG
 0103.a5.txt,1844.48,1103.07,623.87,388.79,5,3,3
 2021.a5.txt,1753.4,960.77,944.76,344.28,3,1,5
 1013.a5.txt,1675.39,1125.65,689.35,296.68,3,3,2
+=======
+0101.a5.txt,2040.16,1084.34,763.05,409.64,"{'Emily Davies', 'Maria Grey', 'Josephine Butler', 'Frederick Denison Maurice', 'Sarah Ellis'}",{'the Victorian England'},"{""Queen's College""}"
+0102.a5.txt,1657.46,1033.94,876.09,268.35,"{'Southener', 'Southeners', 'Grayson', 'Negro', 'Garrison', 'Fitzhugh', 'Douglass'}","{'North', 'Africa', 'South'}","{""O'Connell"", 'Pollard', 'Negroes', 'Ham', 'civilizes'}"
+0103.a5.txt,1844.48,1103.07,623.87,388.79,"{'Ham', 'Negro', 'Garrison', 'Fitzhugh', 'Douglass'}","{'North', 'Africa', 'South'}","{'Cotton', 'Negroes', 'Ham'}"
+0104.a5.txt,1897.48,935.25,638.49,368.71,"{'Grayson', 'Ham', 'Rudyard Kipling', 'Negro', 'Garrison'}","{'Africa', 'the Deep South', 'South'}","{'Lundén & Srigley', 'non-Whites', 'Negroes', 'Ham', 'Negro', 'Fed'}"
+0105.a5.txt,1530.52,1042.25,553.99,582.16,"{'canibals', 'North'}","{'North', 'Europe', 'Africa', 'South'}","{'fed', 'negroe', 'Negroes'}"
+0106.a5.txt,1996.14,964.32,848.6,655.74,"{'Sarah Ellis', 'John Stuart Mill'}",set(),set()
+0107.a5.txt,2000.0,1220.78,779.22,545.45,"{""Burstyn Woman's"", 'Emily Davies', 'Hitchin'}",set(),set()
+0108.a5.txt,2099.92,1061.67,765.03,327.87,"{'Hanna Mitchell', ""Charlotte Bronte's"", 'Joan N Burstyn', 'Jane Eyre', 'Sarah Ellis', 'Darwin', 'Florence Nightingale'}",set(),"{'Society', ""Woman's Intellectual Capacity"", ""Woman's Journal"", 'Queens College', 'The Politics of Aspiration'}"
+0111.a5.txt,1669.78,1044.78,680.97,307.84,"{'George Alsop', 'Smith', 'Robert Beverly', 'Timothy Dwight', 'John Smith', 'R. Clap', 'Nash'}","{'the Old World', 'the Ohio Valley', 'New England', 'Europe', 'Americas', 'Eden'}","{'Yale', 'Kinds', 'Natures', 'Globe'}"
+0112.a5.txt,2171.58,1081.32,643.43,580.88,"{""Charles Booth's"", 'Hibbert 597', 'Oldham'}",set(),"{'the Manchester Guardian', 'the Health and Morals of Apprentices Act'}"
+0115.a5.txt,1329.88,1079.45,751.3,483.59,"{'Elizabeth Custer', 'Custer 213', 'Bull', 'Custer', 'Custer 207', 'Custer 215', 'Wooden Leg', 'Rosebud', 'Graham', 'Judson E. Walker', 'Custer 210'}","{'Little Big Horn', 'the Little Big Horn'}","{'Whites', 'Two Bears'}"
+0119.a5.txt,1837.75,1092.72,736.75,231.79,"{'William J Grayson', 'Frederick Douglass', 'White', 'William Garrison', 'Garrison', 'Fitzhugh', 'Douglass'}","{'North', 'Africa', 'South'}","{'civilizes', 'christianizes', 'Douglass'}"
+0121.a5.txt,1543.54,1029.02,613.46,382.59,"{'Sitting Bull', 'Walker', 'Custer', 'White', 'E. Custer', 'Graham'}",set(),"{'the U.S. Army', ""Walker's"", 'the Interior Department', 'the US Army', 'American Indians in', 'Hill'}"
+0122.a5.txt,1757.36,1025.87,722.57,365.74,"{'p.27', 'Walker', 'Walsh', 'Moon', 'Elisabeth B Custer', 'Graham'}",set(),{'a Peace Commission'}
+0125.a5.txt,2228.63,1008.65,883.77,480.31,{'attemp'},set(),"{'capablility', 'J S Mill'}"
+0128.a5.txt,1945.79,1132.62,832.53,484.03,{'Benjamin Keach'},"{'the Ohio Valley', 'New England', 'the Atlantic Ocean', 'Europe', 'Paradise', 'North America'}",set()
+0130.a5.txt,1658.73,928.57,738.1,285.71,"{'George Fitzhugh', 'Biblical', 'Frederick Douglass', 'light - Douglass', 'Noah', 'Grayson', ""Frederick Douglass's"", 'Ham', 'Pollard', 'William Lloyd Garrison', 'Garrison', ""William J. Grayson's"", 'Fitzhugh', 'Douglass'}","{'Africa', 'South'}",{'Ham'}
+0134.a5.txt,1752.17,986.58,710.34,473.56,"{'Robert Owen', ""Robert Owen's"", 'New Lanark', 'Owen'}",{'New Harmony'},"{'New Harmony', 'Rappites', 'New Lanark'}"
+0137.a5.txt,1797.02,1061.45,577.28,456.24,"{'Robert Owen', 'Owen'}","{'New Harmony', 'Europe'}","{'New Harmony', 'Lanark', 'New Lanark'}"
+0139.a5.txt,1340.87,1195.48,525.04,315.02,"{'Lundén', 'From1862', 'Sitting Bull', 'Elizabeth Custer', 'Bull', 'Custer', 'Elizabeth', ""W. A. Graham's"", 'Uncapapas'}","{'North America', 'the North -West', 'North-West'}","{'fro', 'Redskins', 'Walker, Judson E. Campaign', 'the Department of the Interior', 'the Sioux Nation'}"
+0140.a5.txt,1716.35,1029.81,632.34,280.04,"{'George Fitzhugh', 'Frederick Douglas', 'Negroes', 'Lloyd Garrison', 'Negro', ""George Fitzhugh's""}","{'North', 'Africa', 'South'}","{""Lloyd Garrison's"", 'Negroes'}"
+0149.a5.txt,2579.37,1238.1,825.4,365.08,"{""W. E. Forster's""}",set(),"{'The Miles Colliery Act', 'Parliament'}"
+0157.a5.txt,1737.21,1172.84,634.92,590.83,"{'Elizabeth Barrett', 'Burstyn', 'Sarah Ellis'}",set(),set()
+0158.a5.txt,1580.33,1202.81,763.83,544.34,"{'George Fitzhugh', 'Frederick Douglass', 'Grayson', 'Ham', 'William J. Grayson', 'Fitzhugh', 'Douglass'}",set(),"{'W.M. Lloyd Garrison', 'Fed', 'Ham'}"
+0159.a5.txt,2112.18,1060.47,964.07,333.04,set(),set(),{'Female Education \nEducation'}
+0161.a5.txt,2190.78,881.16,970.09,258.69,"{'Burstyn', 'Sarah Ellis', 'T. S. Clouston'}",set(),"{""Queen's College"", 'The Women of England (1838', 'Oxford'}"
+0163.a5.txt,2313.55,936.07,882.8,433.79,{'Mitchell'},set(),set()
+0165.a5.txt,2054.2,987.76,830.42,288.46,"{'T.S. Cluston', 'Sarah Ellis', 'Charles Darwin', 'J. N. Burstyn', 'Ellis'}",set(),"{'Female Education', 'the Ideal of Womanhood', 'Victorian Education', 'Oxford'}"
+0171.a5.txt,1572.46,949.28,521.74,384.06,"{'George Fitzhugh', 'Frederick', 'Frederick Douglass', 'Garrison p.4', 'Grayson', 'Pollard', 'Lloyd Garrison', 'William J. Grayson', 'William Lloyd Garrison', 'Excerpt', 'Garrison', 'Edward A. Pollard', ""William J. Grayson's"", 'Fitzhugh', 'Douglass'}","{'North', 'South'}","{'Excerpts The Lost Cause', 'Pollard'}"
+0178.a5.txt,1519.67,1017.64,793.76,461.33,"{'George Fitzhugh-', ""William Lloyd Garrison's"", 'God', 'Robert Sandberg', 'Negro', 'Garrison', 'Michael Srigley', 'Edward A. Pollard', 'Fitzhugh'}","{'Africa', 'Northerners', 'North', 'Southerner', 'South'}","{'Negro', 'fed', 'Rolf Lunden &'}"
+0182.a5.txt,2265.06,1076.31,738.96,425.7,"{'Ricardo', 'Adam Smith', 'Jacquard', 'Smith', 'Jean-Marie Jacquard', 'David Ricardo', 'Monsieur Jacquard'}",set(),"{'Smith', 'The Wealth of Nations'}"
+0185.a5.txt,1805.79,1047.7,724.02,221.47,"{'Cotton Mather', 'Andrew Jackson', 'Matter', 'Robert Beverley'}","{'North America', 'New England', 'Garden of Eden'}","{'the London Company', 'The New Englanders', 'the Promised Land'}"
+0186.a5.txt,1959.35,967.48,886.18,398.37,"{'John Stuart Mill', 'Raphael', 'Mrs Ellis', 'Sarah Ellis', 'Mozart', 'Shakespeare'}",set(),set()
+0187.a5.txt,2282.61,1105.07,778.99,362.32,"{'John Stuart Mill', 'Margaret Hall', 'Burstyn', 'Darwin', 'Hitchin'}",{'Victorian England'},"{'Girton College', 'the University of London', ""Queen's College"", 'Oxford', 'the Cambridge Local Examinations'}"
+0188.a5.txt,1559.35,1055.08,744.76,457.72,"{'Mrs Custer', 'Sitting Bull', 'Elisabeth G Custer', 'Custer', 'W A Graham', 'Graham'}",{'North-West'},"{'American Indians', 'J E Walker'}"
+0192.a5.txt,1658.21,1116.75,651.44,439.93,"{'George Fitzhugh', 'Frederick', 'Frederick Douglass', 'Lloyd Garrison', 'Negro', 'Garrison', ""Daniel O'Connell"", 'Fitzhugh', 'Douglass'}","{'Africa', 'South'}","{'Negro', 'Negroes'}"
+0193.a5.txt,2187.77,1076.66,835.49,396.21,{'Hannah Mitchell'},set(),"{""Queen's College""}"
+0197.a5.txt,1505.29,886.9,374.29,333.6,"{'Fogarty', 'New Lanark', 'Robert Owen', 'MacDonald', 'Bronowski', ""Robert Owen's"", 'Owen'}",{'New Harmony'},"{'MacDonald/Fogarty', 'New Lanark', 'the Community of Common Property', 'MacDonald', 'New Harmony'}"
+0198.a5.txt,2138.0,1010.69,806.61,369.29,"{'Burstyn', 'John Stuart Mill'}",set(),set()
+0199.a5.txt,1814.71,993.31,773.64,382.04,"{'George Fitzhugh', 'Frederick Douglass', 'Edward A Pollard', 'William J. Grayson', 'William Lloyd Garrison', 'Garrison'}","{'Caribbean', 'Europe', 'North', 'Africa', 'South'}",{'Pollard'}
+0200.a5.txt,1478.26,1165.22,695.65,426.09,"{'Walker', 'Bull', 'Custer', 'Wooden Leg', 'Graham'}","{'North America', 'the New America', 'Indian Territory'}","{'Interior', 'the white settlers', 'the Uncapapa Sioux', 'Walker'}"
+0206.a5.txt,1480.88,951.99,707.89,358.01,"{'Sitting Bull', 'Elizabeth Custer', 'W.A. Graham', 'Custer', 'Judson E. Walker'}",{'North-West'},"{'the Untied States Government', 'the United States Government', 'The United States Government', ""Custer's"", 'the U.S. Government'}"
+0214.a5.txt,1628.32,1097.35,663.72,309.73,"{'George Fitzhugh', 'William J Grayson', ""O'Connell"", 'Frederick Douglass', 'Grayson', 'Negro', 'Garrison', 'Fitzhugh', 'Douglass'}","{'North', 'Southerner', 'Africa', 'South'}","{'Negro', 'Negroes'}"
+0215.a5.txt,1762.39,952.01,558.62,283.24,"{'Bruce Mazlish', 'Robert S. Fogarty', 'Leonardo', 'J. Bronowski', 'A. J. MacDonald', 'Robert Owen', 'Hegel', ""Robert Owen's"", 'Owen'}","{'New Harmony', 'Europe'}","{'The Western Intellectual Tradition', 'New Harmony', 'Social'}"
+0219.a5.txt,2063.06,981.98,891.89,603.6,"{'Josephine Butler', 'Maria Grey', 'Emily Davies'}",set(),"{'the North London Collegiate School', 'Queens College', 'Oxford'}"
+0222.a5.txt,1771.54,1151.98,697.0,416.26,set(),{'Creeks'},{'Mary-Land'}
+0223.a5.txt,1586.94,1032.65,675.78,387.24,"{'Beverley', 'Devil', 'Cotton Mather', 'Edward Johnson', 'John Higginson', 'Robert Beverley'}","{'New England', 'Europe'}","{'Genesis', 'Churches', 'the ""Land of Opportunities', 'Idolatry', 'the Promised Land', 'The ""Land of Plenty'}"
+0227.a5.txt,1625.54,928.88,761.97,348.33,"{'Hyde', 'Elizabeth Custer', 'Bull', 'W. A. Graham', 'J. E. Walker', ""W. A. Graham's"", 'Moon', 'E. Custer', 'Jekyll', 'Graham', 'Judson E. Walker', 'Tom'}","{'Little Big Horn', 'the Pacific Ocean'}",{'Running Antelope'}
+0234.a5.txt,1588.39,922.29,512.38,333.05,"{'Sitting Bull', 'Elizabeth Custer', 'Walker', 'Bull', 'Custer', 'Elizabeth', ""Judson E. Walker's"", 'Walsh', 'Iron Horse', 'Graham'}","{'the east coast', 'New England', 'North-West', 'Mississippi', 'Northwest', 'North America'}","{'the U.S. Government', 'the Department of Interior', 'Judson E.Walker', ""Walker's""}"
+0238.a5.txt,1898.2,1145.28,668.08,328.74,"{'Smith', 'Mather', 'De Toqueville'}",{'the Garden of Eden'},set()
+1003.a5.txt,2204.65,1041.86,716.28,241.86,"{'Emily Davis', 'Sarah Ellis', 'Mill', 'John Stuart Mill'}",set(),set()
+1005.a5.txt,1798.45,1000.0,581.4,356.59,"{'Robert Owen', 'New Lanark', 'Owen'}",{'New Harmony'},"{'The Western Intellectual Tradition', ""New Harmony's"", 'New Harmony', 'Manchester'}"
+1006.a5.txt,1605.05,1018.94,658.25,405.77,"{'William J Grayson', 'Abraham Lincoln', 'Frederick Douglass', 'Pollard', 'Lloyd Garrison', 'Garrison', ""George Fitzhugh's"", ""Daniel O'Connell"", 'Fitzhugh'}","{'North', 'Europe', 'Africa', 'South'}","{'Wm.', 'Negro'}"
+1008.a5.txt,1921.85,1020.73,877.19,430.62,"{'T.S Clouston', 'p.78', 'Burstyn', 'Sarah Ellis', 'p.71', 'Ellis'}",set(),"{""Queen's College""}"
+1010.a5.txt,2230.7,877.03,886.56,305.05,"{'Emily Davies', 'Sally Mitchell', 'Maria Grey', 'Josephine Butler', 'Joan N. Burstyn'}",set(),"{'Education', ""Woman's Intellectual Capacity"", 'Victorian Education', 'the Girton College', 'the Ideal of Women', 'the university of London', 'the Ideal of Womanhood', 'Oxford'}"
+1012.a5.txt,1975.0,1025.0,741.67,325.0,"{'Burstyn', 'Brittain', 'Ellis'}",set(),set()
+1013.a5.txt,1675.39,1125.65,689.35,296.68,"{'Garrison', 'Negro', 'Fitzhugh'}","{'North', 'Southerner', 'Africa'}","{'Negro', 'Negroes'}"
+1014.a5.txt,1851.85,1012.35,790.12,353.91,"{'Grayson', 'Pollard', 'Negro', 'Garrison', 'Fitzhugh', 'Douglass'}","{'North', 'Africa', 'South'}","{'Society', 'pp.3-5', 'Negro'}"
+1018.a5.txt,2038.0,958.55,898.1,276.34,"{'Fitzhugh 310', 'Lloyd Garrison', 'Garrison', 'Fitzhugh', 'Jesus Christ'}",{'Africa'},set()
+1021.a5.txt,1824.06,1138.42,659.77,401.03,"{'peolpe', 'Mitchell', 'Joan N Burstyn', 'Ellis'}",set(),"{'Bedford College', 'Burstyÿn', 'the University of London', 'Oÿxford', 'Oxford'}"
+1022.a5.txt,2377.12,1152.82,1054.51,455.76,{'Blackburn'},set(),set()
+1023.a5.txt,1647.24,994.56,675.99,435.12,"{'George Fitzhugh', ""William J Grayson's"", 'Frederick Douglass', 'Pollard', 'Hester', 'Fitzhugh', 'Douglass'}","{'Northern', 'Africa', 'South'}","{'Lloyd Garrison', 'the American Union', 'Fed'}"
+1032.a5.txt,2159.47,1162.79,664.45,573.09,set(),set(),{'Parliament'}
+1034.a5.txt,1813.52,1014.34,747.95,379.1,"{'Garrison', 'Negro', 'Fitzhugh', 'Douglass'}","{'North', 'Africa', 'South'}","{'the Negroes of the South', 'Lundén & Srigley', 'Whites', 'fed', 'Negro', 'Douglass'}"
+1036.a5.txt,1384.22,944.37,659.77,310.48,"{'Marquis', 'Walker', 'Bull', 'Custer', 'Graham'}",{'North-West'},"{'Custeriana', ""Running Antelope's"", ""Custer's Boots and Saddles""}"
+1041.a5.txt,1636.68,865.47,719.79,437.02,"{'George Alsop', 'John Crevecoeur', 'J. Hector St', 'Beverley Robert\tExcerpt', 'Thomas Pownell', 'George\tExcerpt', 'Cotton Mather', 'Dwell', 'Robert Beverly', 'Caanan', 'Robert Beverley'}","{'Wilderness', 'Europe'}","{'Genesis', 'Universe', 'Ingenuity', 'The Frenchman Alexis de Toqueville', 'Orchards', 'Farms'}"
+1043.a5.txt,1473.41,1115.95,627.72,540.54,"{'Marquis', 'Elisabeth', 'Walker', 'John Cotton', 'Custer', 'Elisabeth Custer', 'E. Custer', 'Graham'}",{'Little Big Horn'},set()
+1048.a5.txt,2151.7,1006.19,673.37,410.22,"{'Frederich Denison Maurice', 'Maria Grey', 'Emily Davies'}",set(),"{'the universities/ Colleges', 'Manchester New Colleges', 'the Governess Benevolent Institution', ""Queen's College"", ""girl's/"", 'London University'}"
+1050.a5.txt,1609.66,1106.64,764.59,482.9,"{'George Alsop', 'Satan', 'Devil', 'Cotton Mather', 'Edward Johnson', 'Robert Beverley'}","{'North America', 'New England', 'Europe', 'Eden'}",{'the New World'}
+1055.a5.txt,1799.82,1065.2,1046.83,459.14,{'Nash'},"{'the Garden of Eden', 'the New Country'}",{'the New Country'}
+1057.a5.txt,1370.31,1207.18,611.75,342.58,"{'Wash', 'Sitting Bull', 'Bull', 'Custer', 'Wooden Leg', 'Graham'}","{'West', 'Little Big Horn'}","{'the United States Commissioners', ""Walker's""}"
+1061.a5.txt,1457.29,1072.03,586.26,234.51,"{'Elisabeth', 'Wooden Legs', 'Buffalo Bill', 'Bull', 'W. A. Graham', 'Custer', 'Walter p', 'Elisabeth Custer', 'Wooden Leg', 'Walter', 'Excerpt', 'Buffalo Bill 1877', 'Elisabeth B. Custer', 'Graham', 'Judson E. Walter'}","{'North-West', 'the Northern Cheyennes'}","{'the Little Big Horn', 'the United States Government', 'Interview with Sitting Bull'}"
+1062.a5.txt,1488.33,868.87,772.33,450.52,"{'Walker', 'John Cotton', 'Bull', 'Henry Lewis Morgan', 'Custer', 'Darwin', 'Algonkin'}","{'North-West', 'Europe'}","{'Church', 'Whites', 'New York Herald', 'Kurkiala/Moksnes', ""Judson E Walker's"", 'Navaho'}"
+1064.a5.txt,2182.7,1236.86,606.31,582.05,"{'Hibbert', 'Mitchell'}",set(),"{'Child Labor', 'Lundén & Srigley'}"
+1065.a5.txt,1816.68,966.14,726.67,388.11,"{'W. L. Garrison', 'Grayson', 'Fredrick Douglass', 'Ham', 'W.J. Grayson', 'Douglass', 'Garrison', 'Edward A. Pollard', 'Fitzhugh', 'G. Fitzhugh'}","{'North', 'Africa', 'South'}","{'Ham', 'christianizes', 'fed', 'Douglass'}"
+1067.a5.txt,1746.17,1064.74,638.84,340.72,"{'George Fitzhugh', 'Fredrick Douglass', 'Lloyd Garrison', ""Daniel O'Connel"", 'Negro', 'Garrison', 'Fitzhugh', 'Douglass'}","{'Atlantic', 'North', 'Africa', 'South'}","{'Confederate', 'the New Nation', 'Negro', 'Negroes'}"
+1068.a5.txt,1963.64,1309.09,727.27,509.09,"{'Nash', 'hardships(Nash p.27'}","{'Americas', 'Europe'}",{'intitial'}
+1070.a5.txt,1354.55,1190.91,700.0,327.27,"{'Marquis', 'Elizabeth Custer', 'Walker', 'Bud Wooden Leg', 'Bull', 'Custer', 'Thomas B. Marquis', 'Wooden Leg', 'Judson E. Walker', 'Tom', 'Rosebud'}","{'Little Big Horn', 'the Northern Cheyennes'}","{'the Little Big Horn', 'the Indian Running Antelope'}"
+1072.a5.txt,1390.33,1055.76,542.75,460.97,"{'George Alsop', 'Smith', 'John Smith', 'Cotton Mather', 'Robert Beverly'}","{'New England', 'the West Coast', 'Europe'}","{'says:""', 'Alterations', 'the Promised Land', 'the Frenchman Alexis de Tocqueville', 'Exodus', 'Mary-Land', 'the American West Coast', 'the New Country'}"
+1074.a5.txt,1906.47,1070.14,845.32,530.58,"{'Negro', 'Frederick Douglass', 'Douglass'}",{'Africa'},{'Negroes'}
+1081.a5.txt,2037.91,1071.09,900.47,417.06,"{'Charles Darwin', 'Mozart'}",set(),"{""J. Burstyn's 'Victorian Education"", ""the Queen's College"", ""the Ladies' College"", 'the Ideal of Womanhood'}"
+1088.a5.txt,1358.13,1115.92,856.4,320.07,"{'Bull', 'Custer', ""Elisabeth Custer's"", 'Elisabeth Custer', 'Lundén p.86', 'Graham', 'Christianised'}",set(),set()
+1094.a5.txt,1482.48,1347.71,548.07,251.57,"{'Sitting Bull', 'Elizabeth Custer', 'Elizabeth', 'Custer', 'Bull', 'George', ""Elizabeth Custer's"", 'George Custer', 'Judson E. Walker'}",{'Little Big Horn'},"{'Uncapapa Indian', 'Uncapapa'}"
+1095.a5.txt,1487.31,1041.12,813.65,419.95,"{'George Alsop', 'Smith', ""Robert Beverley's"", 'John Smith', 'Countrey', 'Alexis De Tocqueville', 'Okes'}",{'Europe'},{'Democracy in America'}
+1099.a5.txt,1540.45,1110.15,611.02,335.63,"{'Rolf Lundén', 'John Cotton', 'doth Heraldize', ""Robert Nash's"", ""Michael Srigley's"", 'Nash', 'John Smith', ""George Alsop's"", 'Fame', 'Robert Nash', 'Robert Beverley'}",{'Europe'},set()
+1100.a5.txt,1587.03,1117.75,571.67,324.23,"{'Robert Owen', ""Robert Owen's"", 'New Lanark', 'Owen'}",{'New Harmony'},"{'Trinity', 'New Harmony', 'Parliament', 'New Lanark'}"
+1102.a5.txt,2066.49,1006.29,691.82,314.47,"{'Robert Owen', ""Robert Owen's"", 'Owen'}",{'New Harmony'},"{'the British Parliament', 'New Harmony'}"
+1104.a5.txt,1669.46,989.93,578.86,444.63,"{'Lundén', 'p.17', 'Frederick Douglass', 'Grayson', 'Negro', 'Hireling', 'Garrison', 'Fitzhugh', 'Douglass'}","{'Europe', 'North America', 'North', 'Africa', 'South'}","{'Fitzhuge', 'Pollard', 'Negroes', 'Nationalencyklopedin', 'Negro', ""class'(Douglass""}"
+1112.a5.txt,1993.96,1087.61,1019.64,521.15,"{'Burstyn p.17', 'Burstyn', 'Mozart', 'Shakespeare', 'Ellis p.6', 'Ellis'}",set(),{'Society'}
+1121.a5.txt,1509.16,1062.27,673.99,505.49,"{'Robert Owen', ""Robert Owen's"", 'New Lanark', 'Owen'}","{'New Harmony', 'Europe'}","{'The Western Intellectual Tradition', 'New Harmony'}"
+2005.a5.txt,1921.68,1120.22,619.31,336.98,"{'Bronowski', 'Robert Owen', ""Robert Owen's"", 'Owen'}",{'New Harmony'},"{'New Lanark', 'New Harmony', 'the New Lanark Mills', 'New Lanark Mills'}"
+2007.a5.txt,1534.15,873.46,705.49,559.91,"{'Cloathes', 'Surfeit', 'Roderick Nash', 'Robert Beverly', 'Mather', 'Nash', 'Alhough Robert Beverly'}","{'New England', 'the East Coast', 'South'}","{'Genesis', 'Exodus'}"
+2012.a5.txt,2037.74,830.19,716.98,369.81,"{'George Fitzhugh', 'Negro', 'William Lloyd Garrison', 'Garrison', 'Fitzhugh'}","{'North', 'South'}","{'Society', 'Cotton', 'civilizes', 'christianizes'}"
+2014.a5.txt,2200.62,1018.66,832.04,458.79,"{'Mozart', 'Eve', 'Rembrandt', 'Shakespeare', 'craniometri'}",set(),"{'J S Mill', 'the University of London', 'Oxford'}"
+2015.a5.txt,1845.69,945.54,763.99,332.83,"{'Robert Owen', ""Robert Owen's"", 'New Lanark', 'Owen'}","{'New Harmony', 'Europe'}","{'New Lanark', 'New Harmony', 'Parliament', 'the British Parliament', 'Bronowski & Mazlish'}"
+2019.a5.txt,1804.44,1164.44,666.67,364.44,"{'William J Grayson', ""O'Connell"", 'Douglas', 'Grayson', 'Pollard', 'William Lloyd Garrison', 'Frederick Douglas', ""Daniel O'Connell"", 'Fitzhugh'}","{'the North America', 'Europe', 'North', 'Africa', 'South'}","{'Negro', 'Negroes'}"
+2020.a5.txt,2007.01,911.48,815.07,254.16,"{'Robert Owen', ""Robert Owen's"", 'Welshman', 'Owen'}",{'New Harmony'},"{'New Harmony', 'London Newspapers'}"
+2021.a5.txt,1753.4,960.77,944.76,344.28,"{'Robert Owen', 'Robert S. Fogarty', 'Owen'}",{'New Harmony'},"{'Arthur Bestor', 'New Lanark', 'New Lanark Owen', 'New Harmony', 'the ""Institution Established for the Formation of Character'}"
+2026.a5.txt,1791.04,839.55,736.94,438.43,"{""Roderick Nash's"", 'William Bradford', 'Nash', 'John Smith'}","{'Atlantic', 'the New Land', 'the Garden of Eden', 'the West Coast', 'North America'}",{'the New Land'}
+2028.a5.txt,2038.44,912.83,734.39,439.26,"{'Lundén', 'Hannah', 'Anderson', 'Michael', 'Sally', 'Hibbert', 'Excerpt', 'Bonnie S. - Zinsser', 'Lund', 'Martha', 'Judith P.', 'Christopher', 'Mitchell'}",{'Europe'},{'Rolf - Srigley'}
+2032.a5.txt,1687.76,902.95,987.34,337.55,"{'Whites', 'Custer', 'Graham', 'Margaret G. Custer'}",{'North America'},"{'Walker', 'Lundén & Srigley', 'the ""Land of Happiness'}"
+2034.a5.txt,1714.94,884.15,609.76,373.48,"{'Fogarty', 'New Lanark', 'Robert Owen', ""Robert Owen's"", 'Owens', 'Owen'}","{'New Harmony', 'Europe'}","{'an Executive Council', 'The New View of Society', 'the Application of the Principle to Practice', 'New Lanark', 'a New View of Society', 'a Preliminary Committee', 'New Harmony', 'The Community of Equality', ""Owen's Community"", 'the Preliminary Society', 'Vision', 'the New Harmony Community of Equality'}"
+2035.a5.txt,1801.87,889.24,663.03,468.02,"{'Burstyn', 'Sarah Ellis', 'Ellis'}",set(),set()
+2036.a5.txt,1816.77,1125.78,621.12,442.55,"{'Robert Owen', 'Lanark', 'Welshman', 'Owen'}",set(),"{'New Harmony', 'Lanark'}"
+2039.a5.txt,1277.43,987.46,736.68,423.2,"{'Custeriana', 'Marquis', 'Rolf Lundén &', 'Bloody Knife', 'Walker', 'Custer', 'W. A. Graham', 'Devil', 'Michael Srigley', 'Graham', 'Judson E. Walker', 'Elizabeth B. Custer'}","{'North-West', 'the Northern Cheyennes'}","{'Boots and Saddles', 'Running Antelope', 'Lundén & Srigley'}"
+2040.a5.txt,2001.71,975.19,846.88,333.62,"{'Emily Davies', 'Sally Mitchell', 'Emily Davis', 'Joan N. Burstyn', 'Mitchell', 'T.S. Clouston', 'Burstyn', 'Sarah Ellis', 'Hannah Mitchell', 'Maria Gray', 'Hitchin'}",set(),"{'House', 'The Women of England', 'The Universities of Oxford', 'Victorian Education', 'University', 'the Ideal of Womanhood', 'Savage'}"
+2045.a5.txt,1915.47,1034.17,737.41,323.74,"{'Smith', 'John Smith', 'Roderick Nash', ""George Alsop's"", 'Nash', 'Robert Beverley'}","{'New England', 'Europe'}","{'Beverley', 'Mary-Land'}"
+2048.a5.txt,1478.98,765.77,1036.04,322.82,"{'Billy the Kid', 'Custeriana', 'Elizabeth Custer', 'Walker', 'Rolf Lundén', 'Bull', 'W. A. Graham', 'Custer', ""Judson E. Walker's"", 'Elisabeth Custer', 'Moon', 'Judson E. Walker', 'Michael Srigley', 'Graham'}",{'North-West'},"{'Custeriana', 'Agency', 'Walker', 'critizise', 'Boots and Saddles'}"
+2049.a5.txt,2249.21,1129.88,1098.2,337.91,"{'Becker', 'Sally Mitchell', 'Raphael', 'Mozart', 'Shakespeare'}",{'Europe'},set()
+2050.a5.txt,1669.41,871.71,682.57,460.53,"{'George Alsop', 'John Smith', 'Conies', 'Siluer', 'Aslop', 'Roderick Nash', 'Robert Beverly'}","{'Paradise', 'Europe', 'Bay and Sea'}","{'Wolues', 'Paradise Lost', 'Globe', 'Rivers', 'This New World', 'Shipping and Trade', 'Mary-Land', 'Judoea', 'Foxes'}"
+2058.a5.txt,1436.25,937.02,622.12,345.62,"{'Marquis', 'Elizabeth Custer', 'Walker', 'W.A. Graham', 'Custer', ""Elizabeth Custer's"", 'Graham', 'Judson E. Walker'}",{'the Northern Cheyennes'},"{'the United States Government', 'the Uncapapa Sioux', ""Walker's"", 'the Sioux Nation', 'the American Indians'}"
+2066.a5.txt,2134.72,1148.01,844.4,275.14,"{'George Fitzhugh', 'William J Grayson', 'Wm Lloyd Garrison', ""Daniel O'Connel"", 'Fitzhugh'}","{'Southerner', 'South'}",set()
+2071.a5.txt,2283.91,1061.14,892.48,400.56,"{'Negro', 'Potteries'}",set(),{'lodgers'}
+2075.a5.txt,1990.16,814.65,623.29,415.53,"{'Almquist Norbelie', 'Michael', 'Robert Owen', 'jenny', 'Hibbert', 'Mitchell Hannah', 'Martha', 'Lund', 'Mitchell Sally', 'Christopher'}",{'Culture Kit'},"{'Lundén Rolf & Srigley', '9ff', ""the Women's Trade Union League""}"
+>>>>>>> ddaaa507a569b69cdc2a51d78afc9efd6fec5fdb

@@ -1,4 +1,5 @@
 Filename,Noun Freq,Verb Freq,Adj Freq,Adv Freq,Unique PER,Unique LOC,Unique ORG
+<<<<<<< HEAD
 0105.b1.txt,2024.97,1040.22,679.61,859.92,0,0,1
 1100.b1.txt,1989.32,1081.44,1148.2,560.75,0,0,0
 3522.b1.txt,2060.13,1158.13,712.69,467.71,1,0,4
@@ -79,3 +80,85 @@ Filename,Noun Freq,Verb Freq,Adj Freq,Adv Freq,Unique PER,Unique LOC,Unique ORG
 1532.b1.txt,2182.49,850.8,838.47,443.9,1,0,2
 3514.b1.txt,2087.59,1021.9,875.91,408.76,8,0,1
 2036.b1.txt,1725.73,1232.67,785.82,647.15,0,0,0
+=======
+0103.b1.txt,2045.95,1017.51,962.8,240.7,"{'Aftonbladet 11/9-99', 'Lund'}",set(),"{'AMV', 'LO', 'the county administrative board'}"
+0105.b1.txt,2024.97,1040.22,679.61,859.92,set(),set(),{'falukorv'}
+0122.b1.txt,2131.15,1206.09,761.12,515.22,set(),set(),set()
+0134.b1.txt,1995.52,1008.97,807.17,661.43,set(),set(),set()
+0139.b1.txt,1885.71,1211.43,742.86,457.14,set(),set(),set()
+0140.b1.txt,2160.49,1024.69,728.4,543.21,set(),set(),set()
+0165.b1.txt,2026.58,963.46,575.86,598.01,"{'Andy Warhol', 'Marilyn Monroe', ""Yoko Ono's"", 'Salvador Dali', 'Magritte', 'Bildjournalen', 'René Magritte', 'Dali', 'Duchamp'}",set(),set()
+0171.b1.txt,2080.1,1007.75,633.07,581.4,"{'Dagens Nyheter', 'Utbildningsradion och Bokförlaget', 'http://www.dn.se/Dnet/articles/88300-88399/88343/pappa5.html'}",set(),set()
+0200.b1.txt,2206.98,1059.85,785.54,822.94,set(),{'Europe'},"{'SCB', 'the National Statistics Office of Sweden'}"
+0300.b1.txt,1657.7,914.96,1162.54,570.51,"{'Tommy Möller', 'Forselius', 'Thomas', 'partipolitiken', 'Anders Westerholm', 'Moderaterna', 'Möller', 'Bo Lundgren', 'Tilda Maria', 'Mats', 'Ungdomar vänder partierna ryggen', 'Larsson', 'Skolvärlden', 'Larsson 1995:17', 'Bäck'}",set(),"{'Amnesty International and Greenpeace', 'Bäck & Möller199', 'Alkohol & Narkotika 5:12-13'}"
+0304.b1.txt,1770.33,1307.81,749.6,622.01,{'Hesslind 1988:81'},set(),set()
+0307.b1.txt,2070.87,852.71,697.67,287.93,"{'Rudolf Steiner', 'Wallenberg', 'Helena Blavatsky', 'Bra Böckers Lexikon', 'Vetenskap eller bluff', 'Jacob Wallenberg', 'Alice Bailey', 'Bailey', 'Zen Buddhism', 'Ahlström', 'Akademiker', 'Gabriella Ahlström'}",set(),"{'Telia', 'General Motors', 'Vadstena'}"
+0308.b1.txt,1915.71,977.01,929.12,727.97,{'Maslow'},set(),set()
+0310.b1.txt,2034.88,965.12,709.3,639.53,"{'Margot Wallström', 'Nya Handla Miljövänligt', 'Katrineholm', 'Holm', 'Fredrik'}",set(),"{'Thunberg, Bo', 'EU', 'the European Board of Ministers', 'Naturskyddsföreningen Förlag AB\n'}"
+0313.b1.txt,1715.53,1064.06,651.47,738.33,set(),set(),{'Alcohol'}
+1003.b1.txt,2082.87,963.05,974.24,459.13,"{'nr7-8', 'Brombergs\n', 'Skolvärlden', 'Oppenheim Florence', 'Greedier Göran', 'Rössner Stefan'}",set(),"{'Feta Hotet""Ordfront', 'the University of Gothenburg (Oppenheim2000', 'Greider1999', 'WHO', 'ungdomar blir'}"
+1006.b1.txt,2027.97,955.71,839.16,524.48,set(),{'Europe'},"{'BSE', 'CID', 'Svenska Dagbladet', 'Aftonbladet', 'Belgian Blue'}"
+1006.b1i.txt,2027.97,955.71,839.16,524.48,set(),{'Europe'},"{'BSE', 'CID', 'Svenska Dagbladet', 'Aftonbladet', 'Belgian Blue'}"
+1012.b1.txt,2175.0,962.5,837.5,400.0,set(),set(),set()
+1021.b1.txt,1735.63,919.54,896.55,574.71,{'Thorleif Pettersson'},set(),"{'the Swedish Church', 'Uppsala University'}"
+1023.b1.txt,1804.51,859.29,1084.85,805.59,{'Morse'},set(),"{'Siemens', 'Volvo', 'Nokia', 'Motorola', 'Ericsson'}"
+1057.b1.txt,1734.5,1230.62,765.5,697.67,set(),{'The Canary Islands'},set()
+1066.b1.txt,1922.17,1025.94,1084.91,601.42,{'www.riksdagen.se'},set(),"{'the democratic party system', 'EU', 'Greenpeace'}"
+1069.b1.txt,1610.56,828.03,646.04,618.74,"{'Om detta må Ni Berätta', 'Einhorn', ""Primeminister Persson's"", 'Persson', 'Jerzy Einhorn', 'Fascism'}",{'Europe'},"{'the Waffen-SS', 'the Third Reich', 'ZOG', 'Stockholm Convention', 'BBC', 'the Zionist Occupation Governments', ""the Historic Museum's""}"
+1081.b1.txt,1909.76,1122.77,766.0,503.67,"{'Greed', 'Milla Jovovich'}",set(),"{'Society', 'commesial', 'VOUGE'}"
+1097.b1.txt,1954.96,962.13,941.66,593.65,"{'förtid', 'http://www.niwl.se/hotell/ymednvso/rapport/1996-7.html', 'Openheim Florence', 'Skolvärlden', 'Claes Annerstedt', 'Halv miljon kan', 'Kvinnors', 'Skolvärlden \n\t', 'och fetma'}",set(),"{'the University of Gothenburg', 'http://www.svt.se/nyheter/'}"
+1100.b1.txt,1989.32,1081.44,1148.2,560.75,set(),set(),set()
+1102.b1.txt,2287.36,977.01,678.16,471.26,set(),set(),"{'SCB', 'statistiska', 'Organization for Economic Co', 'OECD'}"
+1104.b1.txt,1848.18,946.09,715.07,550.06,"{'Natur och kultur', 'Fellman', 'Holmén', 'http://www.scb.se\n', 'Överjordet'}",set(),"{'J., Getis, A.', 'Statistiska', 'J.', 'A.H. 1994', 'Soleröd'}"
+1104.b1i.txt,1848.18,946.09,715.07,550.06,"{'Natur och kultur', 'Fellman', 'Holmén', 'http://www.scb.se\n', 'Överjordet'}",set(),"{'J., Getis, A.', 'Statistiska', 'J.', 'A.H. 1994', 'Soleröd'}"
+1112.b1.txt,2089.08,1145.28,678.69,593.85,set(),set(),set()
+1500.b1.txt,2264.38,869.03,734.39,538.56,{'Astrid Lindgren'},set(),"{'The federation of County Council', 'The Salgrenska University', 'Care', 'Care of the sick'}"
+1508.b1.txt,2206.98,1159.6,760.6,561.1,set(),set(),set()
+1520.b1.txt,1974.92,961.34,783.7,522.47,set(),"{'Western Europe', 'Europe'}","{'EU', 'WE'}"
+1523.b1.txt,1230.33,1201.72,858.37,686.7,{'Ulrika Jonsson'},{'Europe'},"{'Swedish Citizens', 'Vikings', 'the European Community'}"
+1528.b1.txt,2002.09,1084.46,563.09,271.12,"{'Grova dåd slår tillbaka mot förövarna', 'Lindstrand', 'Dagens Nyheter', 'Björn Söderberg', 'Carl Johan', 'Motståndare nya', 'Niclas'}",set(),"{'Le Pen', ""Front National's"", 'Lindstrand', 'Utrikespolitiska Institutet'}"
+1532.b1.txt,2182.49,850.8,838.47,443.9,{'Olof Palme'},set(),"{'Malexander', 'SIFO'}"
+1541.b1.txt,2005.49,810.44,837.91,576.92,{'Jörg Haider'},{'Europe'},"{""the Austrian FPÖ party's""}"
+2012.b1.txt,1804.6,1034.48,643.68,574.71,"{'I.', 'Baren', 'Fame'}",set(),{'MTV'}
+2012.b1i.txt,1804.6,1034.48,643.68,574.71,"{'I.', 'Baren', 'Fame'}",set(),{'MTV'}
+2018.b1.txt,2201.65,967.08,792.18,483.54,set(),{'Europe'},"{'UNWDP', 'Global Trend', 'UN', 'Collin', 'the World Drug Problem', 'United Nations General Assembly', 'Guardian', 'the European Union'}"
+2019.b1.txt,1572.48,1253.07,798.53,577.4,"{'Shirley E Peckham', 'Peckhams', 'Peckham'}",set(),set()
+2028.b1.txt,1729.52,1248.37,572.17,637.19,{'Peckham'},set(),set()
+2030.b1.txt,1708.86,1025.32,974.68,645.57,{'Du di du di'},set(),set()
+2032.b1.txt,1820.48,1238.94,758.53,619.47,"{'Shirley E Peckham', 'shirleyepeckhams'}",set(),set()
+2034.b1.txt,1871.66,975.94,628.34,574.87,"{'sommar rea', 'Hamn Krogen', 'köks dörr', 'Krogen', 'Siw Strömqvist'}",set(),"{'snabb mat', 'Hamnkrogen'}"
+2036.b1.txt,1725.73,1232.67,785.82,647.15,set(),set(),set()
+2042.b1.txt,1635.46,1173.53,736.58,611.74,{'Shirley E Peckham'},set(),"{'Shirley E Peckham', ""Shirley E Peckham's""}"
+2049.b1.txt,2138.92,992.28,694.6,518.19,"{'Anna Bråkenheim', 'Ricki Lake', 'f.e.', 'Jenny Jones'}",set(),{'docusoaps'}
+2066.b1.txt,1836.46,1340.48,603.22,388.74,"{'Shirley Peckham', 'Peckhams', ""Shirley Peckham's"", 'Mrs Peckham', 'Generalising', 'Peckham'}",set(),set()
+2070.b1.txt,2043.01,1075.27,537.63,442.05,"{'Göran Persson', 'Stephen Richardson'}",set(),"{'Society', 'the National Statistics Office of Sweden'}"
+2070.b1i.txt,2023.81,1071.43,535.71,440.48,"{'Göran Persson', 'Stephen Richardson'}",set(),"{'Society', 'the National Statistics Office of Sweden'}"
+3013.b1.txt,1969.2,1166.12,935.09,363.04,"{'Mc Donalds', 'Darwin'}",set(),set()
+3018.b1.txt,1942.45,1235.01,683.45,527.58,"{'Brittney Spears', 'Jennifer Lopez'}",set(),{'Eminem'}
+3020.b1.txt,1904.76,1066.25,621.12,403.73,{'Creutzfeldt Jacobs'},{'Europe'},"{'Universe', 'BSE', 'SIFO', 'Media'}"
+3062.b1.txt,2306.76,905.8,1002.42,507.25,set(),set(),set()
+3501.b1.txt,2311.76,977.54,924.7,422.72,"{'Sheldon Richman', 'Paul Elrich', 'Freeman'}",{'earth'},"{'Stanford', 'UN'}"
+3503.b1.txt,2405.8,811.59,753.62,376.81,set(),set(),set()
+3504.b1.txt,2091.58,952.97,717.82,482.67,"{'Harald Nordlund', 'Jonas Edlunds', 'Kungliga Tekniska Högskolan', 'Julia Linderlöf', 'Sara Stavås', 'Kathrin Österlund', 'www.info.uu.se'}",set(),"{'www.oru.se', 'the Royal institute of Technology', 'någon termin', 'The Uppsala University', 'SFS', 'Uppsala University', 'UNT', 'närvarande kan du som ny', 'räkna med studentrum förrän', 'the Swedish Riksdag', 'The IT-University / KTH-Kista', 'Kista'}"
+3505.b1.txt,1629.39,1150.16,915.87,745.47,"{'Ju-Jutsu', 'Svettis'}",set(),"{'Friskis & Svettis', 'Nautilus and Friskis & Svettis', 'Stallet', 'Kotler'}"
+3506.b1.txt,2288.73,927.23,845.07,316.9,set(),set(),"{'Vegetariska', 'BSE', 'Aftonbladet/Sifo'}"
+3508.b1.txt,1851.46,847.28,1108.79,564.85,"{'Heider', 'Hitler'}","{'West', 'Alps', 'Eastern Europe', 'Europe'}",{'cnn'}
+3509.b1.txt,1791.04,1067.74,757.75,597.01,{'Baby Dry'},set(),"{'rea', 'Public Service', 'Lindex', 'Main Language', 'the Swedish', 'Information Technology'}"
+3510.b1.txt,1850.68,893.8,956.89,399.58,"{'Tony Blair', 'Dagens Nyheter', 'George Kennan', 'Bonnier'}",{'West'},"{'General Motors', 'the statistics bureau', 'EU', 'the New York Times', 'Aftonbladet', 'the White House', 'UN', 'the State Department Policy Planning Staff', 'PPS', 'General Electric', 'Eurostat'}"
+3511.b1.txt,1672.06,1186.62,895.36,701.19,set(),set(),set()
+3513.b1.txt,2157.68,1265.56,861.0,321.58,"{'Jakob Creutzfeldt Disease', 'Creutzfeldt Jakob Disease'}",{'Europe'},{'BSE'}
+3514.b1.txt,2087.59,1021.9,875.91,408.76,"{'Dagens Nyheter', 'Christina', 'Magnus Linton', 'Godmorgon Världen', 'Kellberg', 'Creutzfeldt Jacob', ""Meriam-Webster's"", 'Peter Singer'}",set(),{'Sveriges Radio'}
+3515.b1.txt,2293.14,1052.01,921.99,508.27,"{""George Orwell's"", 'Keen'}",set(),{'DOCU'}
+3518.b1.txt,1739.62,1077.44,583.61,662.18,"{'Kent Nilsson', 'Johan Davidsson', 'Wayne Gretzky', 'Johannes Gustafsson', 'Håkan Loob'}",{'Uppland'},set()
+3519.b1.txt,1437.6,963.67,821.48,458.14,set(),set(),"{'McDonald', 'Americanisation', ""McDonald's""}"
+3520.b1.txt,2424.24,898.99,858.59,606.06,set(),{'Mediterranean'},set()
+3522.b1.txt,2060.13,1158.13,712.69,467.71,{'Lena Broström'},set(),"{'the Police Department', 'Svenska Dagbladet', 'the National Statistics Office of Sweden', 'Society'}"
+3523.b1.txt,2150.66,1091.7,1004.37,513.1,set(),set(),"{'Society', 'SN 5/2-01', 'Finance', 'Medical Staff', 'LO', 'Graduate Engineer', 'UNT', 'Computer Specialist', 'UNT 8/2'}"
+3525.b1.txt,1755.49,1206.9,736.68,360.5,{'Klara Halvarsson'},set(),"{'DIET', 'Uppsala university'}"
+4012.b1.txt,2249.17,970.23,705.62,672.55,{'Stefan Rössner'},set(),set()
+4035.b1.txt,1563.73,1143.23,617.61,709.59,{'Edgar Allen Poe'},set(),set()
+4036.b1.txt,1746.92,1007.84,985.44,481.52,"{'Dagens Nyheter', 'Friskolor', 'Ingegerd Wärnersson'}",set(),{'friskolor'}
+4038.b1.txt,2109.0,995.26,746.45,639.81,set(),set(),set()
+4503.b1.txt,1862.5,1100.0,625.0,375.0,"{'Syndikalisternas UngdomsFörbund', ""Mc Donald's""}","{'Western Europe', 'Europe'}","{'H&M', 'SUF'}"
+4507.b1.txt,2265.9,1306.36,774.57,508.67,"{'Göran Persson', 'Creuzfeld'}",set(),{'Media'}
+>>>>>>> ddaaa507a569b69cdc2a51d78afc9efd6fec5fdb
