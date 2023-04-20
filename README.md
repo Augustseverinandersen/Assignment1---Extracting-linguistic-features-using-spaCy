@@ -1,11 +1,12 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10189937&assignment_repo_type=AssignmentRepo)
 
-# Extracting linguistic features using spaCy
+# ASsignment 1 - Extracting linguistic features using spaCy
 
-This assignment concerns using ```spaCy``` to extract linguistic information from a corpus of texts.
+## Contribution 
+- This assignment was made in contribution with fellow students from class, and with inspiration from in class notebooks. All in code comments are made by me. 
+- The assignment uses data gathered by the Univeristy of Oxford. The data consists of 14 folders of english papers written by Swedish students. There is in total 1,489 essays divided into three different levels. Their are five folders of A level essays, eight B level essays, and one C level essay. Each group had a different subject that they wrote about. The link to the data can be found [Here](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2457). 
 
-The corpus is an interesting one: *The Uppsala Student English Corpus (USE)*. All of the data is included in the folder called ```in``` but you can access more documentation via [this link](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2457).
-
+## Assignment description 
 For this exercise, you should write some code which does the following:
 
 - Loop over each text file in the folder called ```in```
@@ -19,6 +20,32 @@ For this exercise, you should write some code which does the following:
 |file1.txt|---|---|---|---|---|---|---|
 |file2.txt|---|---|---|---|---|---|---|
 |etc|---|---|---|---|---|---|---|
+
+## Methods / What does the code do
+- The code does the following:
+- - Goes through each text in each folder, removes HTML tags, uses spacy to get specific linguistic features, such as the relative frequency count of noun, verb, adjective, and adverb. Counts the number of unique persons, locations, and organizations. All information is than stored in one overall dataframe for each folder, containing rows of each text. The dataframe is than made into a csv file and stored in folder out. In total 14 csv files are created.
+
+## Future usage of the code
+- It is difficult to manually get an overview of what seperates the texts into three different levels. However, it could be interesting to cluster the texts together to see how different level texts may be grouped together. It would also be interesting to create a classifier to see how other texts would be classified based on this data.
+
+## Usage 
+To run this code follow these steps:
+1. Clone the repository
+2. Run ```bash setup.sh``` in the command line. This will install the nessercary requiriments, and create a virtual environment. 
+3. Run ```source ./assignment_1/bin/activate``` in the command line. This will activate the virtural enviroment. 
+4. Run ```python3 src/assignment_1.py``` in the command line which will run the code. The current folder, that is being analysed will be printed to the command line.
+
+
+
+
+
+
+This assignment concerns using ```spaCy``` to extract linguistic information from a corpus of texts.
+
+The corpus is an interesting one: *The Uppsala Student English Corpus (USE)*. All of the data is included in the folder called ```in``` but you can access more documentation via [this link](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2457).
+
+
+
 
 ## Objective
 
