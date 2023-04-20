@@ -19,14 +19,14 @@ def clean_data(corpus):
     # sub - replaces the occurrance 
     # . - means all characters
     # * - means zero or more occurances
-    # ? - means zero or one occurance.
+    # ? - means matching the lowest amount possible
     doc = nlp(text) # use spacy nlp to create and find tokens defined by spacy.
 
     return doc
 
 # Counting nouns, verbs, adjectives, and adverbs function
 def count_words(corpus):
-    noun_count =0    # Creating empty variables to store the number of occurances  
+    noun_count =0    # Creating empty variables to store the number of occurances for nouns, verbs, adjectives and adverbs  
     verb_count =0
     adjective_count = 0
     adverb_count = 0
@@ -47,10 +47,9 @@ def count_words(corpus):
 
 # Relative frequency function
 def relative_frequence(nouns, verbs, adjectives, adverbs, corpus):
-    # Finding the relative frequence by dividing a specific part of speech with the lenght of the text
-    #, multiplying by 10 000, and rounding up to 2 decimal numbers
-    relative_freq_ADJ = round((adjectives/len(corpus)) * 10000, 2) 
     
+    relative_freq_ADJ = round((adjectives/len(corpus)) * 10000, 2) # Finding the relative frequence by dividing a specific part of speech with the lenght of the text
+    #, multiplying by 10 000, and rounding up to 2 decimal numbers
     relative_freq_NOUN = round((nouns/len(corpus)) * 10000, 2)
 
     relative_freq_VERB = round((verbs/len(corpus)) * 10000, 2)
@@ -62,7 +61,7 @@ def relative_frequence(nouns, verbs, adjectives, adverbs, corpus):
 # Function to count unique: PER, LOC, ORG
 def unique_NERS(corpus):
     # Finding Unique PER; LOC, ORG
-    # creating empty list
+    # creating empty lists
     entities_PER = [] 
     entities_LOC = []
     entities_ORG = []
