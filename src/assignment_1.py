@@ -109,6 +109,7 @@ def get_data(directory): # Making a function called find_attributes with the par
     # os.listdir makes a list of the specified directory with all the files in the directory.
     # os.path.join joins the "file" to the path for the file.
     for folder_name in os.listdir(directory): 
+        print("Going through folder: " + folder_name)
         folder_path = os.path.join(directory, folder_name)
 
         # Start by checking if the new variable is a directory, if true it moves on and finds the path to each file in the subfolder.

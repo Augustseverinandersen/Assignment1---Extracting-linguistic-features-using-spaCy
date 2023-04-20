@@ -1,5 +1,4 @@
 Filename,Noun Freq,Verb Freq,Adj Freq,Adv Freq,Unique PER,Unique LOC,Unique ORG
-<<<<<<< HEAD
 0502.c1.txt,1321.84,1219.67,434.23,408.68,15,0,5
 0238.c1.txt,1092.9,1163.15,398.13,288.84,18,0,3
 0165.c1.txt,1742.49,816.41,580.83,284.32,27,0,3
@@ -7,12 +6,3 @@ Filename,Noun Freq,Verb Freq,Adj Freq,Adv Freq,Unique PER,Unique LOC,Unique ORG
 0200.c1.txt,1177.65,1021.64,649.22,508.3,17,0,8
 0501.c1.txt,1231.93,1025.46,461.11,426.7,14,0,5
 0219.c1.txt,1379.31,974.8,563.66,484.08,26,0,6
-=======
-0140.c1.txt,1573.58,933.55,472.89,403.59,"{'Alice Hindman', 'Caroline', 'Ernest Hemingway', 'Elizabeth Willard', 'Curtis Hartman', 'Brogan p.6-7', 'Elliot', 'Mrs Compson', 'George Willard', 'E.R Hagermann', 'Jaqueline Vaught Brogan', 'Jason Compson', 'Sally Adair Rigsbee', 'Hemingway', 'Marjorie', 'Jason', 'Enoch Robinson', 'Kate Swift', 'Daniel J. Singal', 'Quentin', 'Brogan', 'Sherwood Anderson', 'John Hardy', 'Wash Williams', 'Adair Rigsbee', 'William Faulkner', 'Louise', 'Compson', 'Rigsbee', 'Nick Adams', 'Bill', 'D.H Lawrence', 'Faulkner', ""Ernest Hemingway's"", 'Benjy', 'Nick', 'Geroge', 'Tom'}",set(),"{'Fury', 'Time', 'Compson', 'The Sound and the', ""Hemingway's""}"
-0165.c1.txt,1742.49,816.41,580.83,284.32,"{'Davis', ""Enoch Robinson's"", 'Curtis Hartman', 'Kate', 'Jesse Bentley', 'Elliot', 'Sally Adair Rigsbee', 'Hemingway', 'Jason', 'Kate Swift', 'Quentin', 'Brogan', 'Louise Bentley', 'Compsons', 'Adair Rigsbee', 'Anderson', 'Jesus', 'Mother', 'Louise', 'Krebs', 'Luster', ""William Faulkner's"", ""Jesse Bentley's"", 'Faulkner', ""Ernest Hemingway's"", 'Benjy', 'Nick'}",set(),"{""Sherwood Anderson's"", 'Fury', 'Bentley'}"
-0200.c1.txt,1177.65,1021.64,649.22,508.3,"{'Catherine', 'Linton', ""Emily Bront''s"", 'Hindley', 'Edgar Linton', 'Edgar', 'Cathy', ""Emily Bront'"", 'Isabella', 'Miriam', 'Kettle', 'Nelly', 'Cedric', 'Heathcliff', 'Earnshaw', 'Emily', 'Hareton'}",set(),"{'Kettle, Arnold', 'p', 'Earnshaws', 'Watts', 'Penguin Classics', 'Nelly', 'Heathcliff', 'Hareton'}"
-0219.c1.txt,1379.31,974.8,563.66,484.08,"{'Edgar', 'Cathy', 'Lockwood', 'Nelly', ""Emily Brontë's"", 'Terry', 'Heathcliff', 'Cookson', 'Hindley', 'Isabella', 'Eagleton', 'L.', 'Catherine', 'Harlow', 'Edgar Linton Catherine', 'Terry Eagleton', 'Brontë', ""B. Longhrey's"", 'Earnshaw', 'Emily Brontë', 'Emily', 'Edgar Linton', 'L. Cookson', 'Bryan Longhrey', 'Longhrey', 'Hareton'}",set(),"{'ch.4', ""T. Eagleton's"", 'St Ives plc', 'ch.7', 'Heatcliff', 'Nelly'}"
-0238.c1.txt,1092.9,1163.15,398.13,288.84,"{'Catherine', 'Linton', 'Edgar Linton', 'Cookson', 'Ed', 'Cathy', 'Godwin', 'Brian Longley', ""Arnold Kettle's"", 'Cedric Watts', ""Emily Brontë's"", 'Thomas A. Vogler Munpericod', 'Cedric', 'Heathcliff', 'Ellen Dean', 'Arnold Kettle', 'Emily', 'Emily Brontë'}",set(),"{'Kettle, Arnold', 'Prentize-Hall', 'Longman'}"
-0501.c1.txt,1231.93,1025.46,461.11,426.7,"{'Catherine', 'XXI', 'Hindley', 'Linton', 'Cederic Watts', 'Nelly Dean', 'Isabella', 'Miriam', 'Miriam Allott', ""Emily Brontë's"", 'Nelly', 'Heathcliff', 'Earnshaw', 'Hareton'}",set(),"{'Earnshaws', 'Watts', 'Popular Classics', 'P.47', 'Hareton'}"
-0502.c1.txt,1321.84,1219.67,434.23,408.68,"{'Catherine', 'Thomas A.', 'Emily Bronte', 'L. Cookson', 'Lockwood', 'Paul', 'Carl R.', 'Woodring', 'Bronte', 'Nelly', 'B. Longlerey\n\n', 'Vogler', 'Earnshaw', 'Dean', 'ruff'}",set(),"{'Grange', 'Lockwood', 'Heatcliff', 'Nelly', 'Norgate'}"
->>>>>>> ddaaa507a569b69cdc2a51d78afc9efd6fec5fdb
