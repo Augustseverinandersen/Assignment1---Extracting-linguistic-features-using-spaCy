@@ -1,14 +1,31 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10189937&assignment_repo_type=AssignmentRepo)
 
-# Extracting linguistic features using spaCy
+# Assignment 1 - Extracting linguistic features using spaCy
 
-This assignment concerns using ```spaCy``` to extract linguistic information from a corpus of texts.
+## Contribution 
+- This assignment was made in contribution with fellow students from class, and with inspiration from in-class notebooks. All in-code comments are made by me. 
+- The assignment uses data gathered by the University of Oxford. The data consists of 14 folders. Each folder contains English papers written by Swedish students. There are in total 1,489 essays divided into three different levels. There are five folders of A-level essays, eight B-level essays, and one C-level essay. Each group had a different subject that they wrote about. The link to the data can be found [Here](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2457). 
+## Packages 
+-	Spacy
+o	Is used for Natural language processing (NLP), Part of Speech tagging (POS), and named entity recognition. 
+o	I am using the medium version of Spacy
+-	Pandas
+o	Is used for data manipulation and structuring the data
+-	Re
+o	Is used to create a regular expression
+-	Os
+o	Is used to navigate the operating system
+-	Sys
+o	Is used to navigate the directory
+-	Zipfile
+o	Is used to extract the zip file
 
-The corpus is an interesting one: *The Uppsala Student English Corpus (USE)*. All of the data is included in the folder called ```in``` but you can access more documentation via [this link](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2457).
+-	Argparse
+o	Is used to specify the path to the zip file as a command line argument.
+## Assignment description 
+Written by Ross:
+For this exercise, you should write some code that does the following:
 
-For this exercise, you should write some code which does the following:
-
-- Loop over each text file in the folder called ```in```
+- Loop over each text file in the folder
 - Extract the following information:
     - Relative frequency of Nouns, Verbs, Adjective, and Adverbs per 10,000 words
     - Total number of *unique* PER, LOC, ORGS
@@ -20,24 +37,19 @@ For this exercise, you should write some code which does the following:
 |file2.txt|---|---|---|---|---|---|---|
 |etc|---|---|---|---|---|---|---|
 
-## Objective
+## Methods / What does the code do
+- The code does the following:
+- Unzips the zip file. Goes through each text in each folder, removes HTML tags, and uses spacy to get specific linguistic features, such as the relative frequency count of nouns, verbs, adjectives, and adverbs. Counts the number of unique persons, locations, and organizations. All information is then stored in one overall data frame for each folder, containing rows of each text. The data frame is then made into a CSV file and stored in the folder ```out```. In total 14 CSV files are created.
 
-This assignment is designed to test that you can:
+## Future usage of the code
+- It is difficult to manually get an overview of what separates the texts into three different levels. However, it could be interesting to cluster the texts together to see how different-level texts may be grouped. It would also be interesting to create a classifier to see how other texts would be classified based on this data.
 
-1. Work with multiple input data arranged hierarchically in folders;
-2. Use ```spaCy``` to extract linguistic information from text data;
-3. Save those results in a clear way which can be shared or used for future analysis
-
-## Some notes
-
-- The data is arranged in various subfolders related to their content (see the [README](in/README.md) for more info). You'll need to think a little bit about how to do this. You should be able do it using a combination of things we've already looked at, such as ```os.listdir()```, ```os.path.join()```, and for loops.
-- The text files contain some extra information that such as document ID and other metadata that occurs between pointed brackets ```<>```. Make sure to remove these as part of your preprocessing steps!
-- There are 14 subfolders (a1, a2, a3, etc), so when completed the folder ```out``` should have 14 CSV files.
-
-## Additional comments
-
-Your code should include functions that you have written wherever possible. Try to break your code down into smaller self-contained parts, rather than having it as one long set of instructions.
-
-For this assignment, you are welcome to submit your code either as a Jupyter Notebook, or as ```.py``` script. If you do not know how to write ```.py``` scripts, don't worry - we're working towards that!
-
-Lastly, you are welcome to edit this README file to contain whatever informatio you like. Remember - documentation is important!
+## Usage 
+To run this code follow these steps:
+1.	Clone the repository
+2.	Get the zip file *USEcorpus.zip* from [here]( https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2457#) and place it in the datafolder
+3.	Run ```bash setup.sh``` in the command line. This will install the requirements, and create a virtual environment. 
+4.	Run ```source ./assignment_1/bin/activate``` in the command line. This will activate the virtual environment. 
+5.	Run ```python3 src/assignment_1.py –-zip_name data/USEcorpus.zip``` in the command line which will run the code. 
+6.	The current folder, that is being analyzed will be printed to the command line.
+7.	Your output will be stored in the folder ```out```  as 14 csv files

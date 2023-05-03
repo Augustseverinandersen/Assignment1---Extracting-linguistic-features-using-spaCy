@@ -1,6 +1,6 @@
 # Importing NLP library
 import spacy
-nlp = spacy.load("en_core_web_md") # loads the entire model spacy into the variable nlp
+nlp = spacy.load("en_core_web_md") # loads the entire medium model spacy into the variable nlp
 
 # Importing data manipulation library
 import pandas as pd
@@ -10,9 +10,34 @@ import re
 import os
 import sys
 sys.path.append(".")
+import zipfile 
+import argparse
+
+
+def input_parse():
+    # initialize the parser
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--zip_name", type=str, help = "The path to the zip file etc data/USEcorpus.zip")
+    # parse the arguments from command line
+    args = parser.parse_args()
+    return args
+
+
+def unzip(args):
+    folder_path = os.path.join("data", "USEcorpus") # Defining the folder_path to the data.
+    directory = folder_path # Saving the path in a new variable to be used later
+    if not os.path.exists(folder_path): # If the folder path does not exist, unzip the folder, if it exists do nothing 
+        print("Unzipping file")
+        path_to_zip = args.zip_name # Defining the path to the zip file
+        zip_destination = os.path.join("data") # defining the output destination
+
+        with zipfile.ZipFile(path_to_zip,"r") as zip_ref: # using the package from zipfile, to un zip the zip file
+            zip_ref.extractall(zip_destination) # Unzipping
+    print("The files are unzipped")
+    return directory
+
 
 # Creating functions to be used later 
-
 # Cleaning function
 def clean_data(corpus): 
     text = re.sub(r'<.*?>', '', corpus)  # Regexing removing alle places where there are angle brackets in the corpus.
@@ -23,6 +48,7 @@ def clean_data(corpus):
     doc = nlp(text) # use spacy nlp to create and find tokens defined by spacy.
 
     return doc
+
 
 # Counting nouns, verbs, adjectives, and adverbs function
 def count_words(corpus):
@@ -45,6 +71,7 @@ def count_words(corpus):
 
     return noun_count, verb_count, adjective_count, adverb_count
 
+
 # Relative frequency function
 def relative_frequence(nouns, verbs, adjectives, adverbs, corpus):
     
@@ -57,6 +84,7 @@ def relative_frequence(nouns, verbs, adjectives, adverbs, corpus):
     relative_freq_ADV = round((adverbs/len(corpus)) * 10000, 2)
 
     return relative_freq_ADJ, relative_freq_NOUN, relative_freq_VERB, relative_freq_ADV
+
 
 # Function to count unique: PER, LOC, ORG
 def unique_NERS(corpus):
@@ -82,6 +110,7 @@ def unique_NERS(corpus):
 
     return unique_entities_PER, unique_entities_LOC, unique_entities_ORG
 
+
 # Creating dataframes function
 def create_dataframe(all_data, file_name, relative_freq_NOUN, relative_freq_VERB, relative_freq_ADJ, relative_freq_ADV, unique_entities_PER, unique_entities_LOC, unique_entities_ORG):
     # Creating an empty list to store the touples, created below.
@@ -94,6 +123,7 @@ def create_dataframe(all_data, file_name, relative_freq_NOUN, relative_freq_VERB
     
     # Appending each dataframe (which is only one row) into an empty list created in the "get_data function"
     all_data.append(data)
+
 
 # Function for saving dataframes, as csv
 def save_function(all_data, folder_name):
@@ -135,13 +165,11 @@ def get_data(directory): # Making a function called find_attributes with the par
                     save_function(all_data, folder_name)
                     
                      
-
-
-def main_function(): # Main function that has the directory path for the data. 
-    directory = os.path.join(".", "in", "USEcorpus")
-    get_data(directory)
+def main_function(): # Main function  
+    args = input_parse() # Command line arguments
+    directory = unzip(args) # Unzipping the file and saving the directory path to the data
+    get_data(directory) # Function containg the other functions
     
-
 
 if __name__ == "__main__": # If called from terminal run main function 
     main_function()
