@@ -6,18 +6,18 @@
 - The assignment uses data gathered by the University of Oxford. The data consists of 14 folders. Each folder contains English papers written by Swedish students. There are in total 1,489 essays divided into three different levels. There are five folders of A-level essays, eight B-level essays, and one C-level essay. Each group had a different subject that they wrote about. The link to the data can be found [Here](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2457). 
 ## Packages 
 -	Spacy
-o	Is used for Natural language processing (NLP), Part of Speech tagging (POS), and named entity recognition. 
-o	I am using the medium version of Spacy
+    - Is used for Natural language processing (NLP), Part of Speech tagging (POS), and named entity recognition. 
+    - I am using the medium version of Spacy
 -	Pandas
-o	Is used for data manipulation and structuring the data
+    - Is used for data manipulation and structuring the data
 -	Re
-o	Is used to create a regular expression
+    - Is used to create a regular expression
 -	Os
-o	Is used to navigate the operating system
+    - Is used to navigate the operating system
 -	Sys
-o	Is used to navigate the directory
+    - Is used to navigate the directory
 -	Zipfile
-o	Is used to extract the zip file
+    - Is used to extract the zip file
 
 -	Argparse
 o	Is used to specify the path to the zip file as a command line argument.
