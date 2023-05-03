@@ -13,7 +13,7 @@ python3 -m spacy download en_core_web_md
 
 
 # Run the code 
-python3 src/assignment_1.py
+#python3 src/assignment_1.py
 
 # Deactivate the virtual environment.
 deactivate
