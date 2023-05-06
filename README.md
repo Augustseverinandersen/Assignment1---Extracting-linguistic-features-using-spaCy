@@ -20,7 +20,7 @@
     - Is used to extract the zip file
 
 -	Argparse
-o	Is used to specify the path to the zip file as a command line argument.
+    - Is used to specify the path to the zip file as a command line argument.
 ## Assignment description 
 Written by Ross:
 For this exercise, you should write some code that does the following:
