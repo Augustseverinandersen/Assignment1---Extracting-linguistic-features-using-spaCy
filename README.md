@@ -2,12 +2,16 @@
 # Assignment 1 - Extracting linguistic features using spaCy
 
 ## Contribution 
-- This assignment was made in contribution with fellow students from class, and with inspiration from in-class notebooks. All in-code comments are made by me. 
-- The assignment uses data gathered by the University of Oxford. The data consists of 14 folders. Each folder contains English papers written by Swedish students. There are in total 1,489 essays divided into three different levels. There are five folders of A-level essays, eight B-level essays, and one C-level essay. Each group had a different subject that they wrote about. The link to the data can be found [Here](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2457). 
+- This assignment was made in contribution with fellow students from class, and with inspiration from in-class notebooks. All in-code comments are made by me.
+- The assignment uses data gathered by the University of Oxford.
+
+### Data 
+- The data from the University of Oxford consits of 1 489 English papers written by 440 Swedish students. The data is split up into 14 folders. The folders are split up in *a, b,* and *c*, each representing a different level of English proficency. There are five folders of A-level essays, eight B-level essays, and one C-level essay. Each folder, representing a group, had a different subject that they wrote about. According to the authors of the data, the average essay length is 820 words. For more information: [University of Oxford, 2003, The Uppsala Student English Corpus (USE), Oxford Text Archive,] (https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2457). 
+
 ## Packages 
 -	Spacy
     - Is used for Natural language processing (NLP), Part of Speech tagging (POS), and named entity recognition. 
-    - I am using the medium version of Spacy
+    - I am using the medium version of Spacy, which allows for *part-of-speech tagging* and *named entity recognition.* 
 -	Pandas
     - Is used for data manipulation and structuring the data
 -	Re
@@ -18,9 +22,26 @@
     - Is used to navigate the directory
 -	Zipfile
     - Is used to extract the zip file
-
 -	Argparse
     - Is used to specify the path to the zip file as a command line argument.
+
+## Repository Contents 
+The repository contains:
+- assignment_1 
+    - This folder contains the virtual environment. 
+- data
+    - An empty folder where you will place the zip-file 
+- out
+    - The folder that will contain the output CSV files for each folder
+- src
+    - The folder that contains the python script
+- README.md 
+    - The README file 
+- requirements.txt 
+    - A text file containing the required libraries, that will be installed when you run the setup.sh file.
+- setup.sh 
+    - The setup file that will create a virtual environment, upgrade pip, and install the nessecary requirements.
+
 ## Assignment description 
 Written by Ross:
 For this exercise, you should write some code that does the following:
@@ -38,7 +59,11 @@ For this exercise, you should write some code that does the following:
 |etc|---|---|---|---|---|---|---|
 
 ## Methods / What does the code do
-- The code does the following:
+The code does the following:
+- The script starts by initializing an argparse, which is used to define the path to the zip file. The code than checks if a specific path to the the data exists. If the path does not exist, the zip file is extracted. After extracting the data, functions are created which will be used later. The first function, ```clean_data```, uses regular expression to clean the files. The regular expression, removes all angel brackets and whats is in between the angle brackets. The next function, ```count_words```, uses SpaCys *part-of-speech* (POS) tagging to count each time an adjective, noun, verb, or adverb appears. The function, ```relative_frequence```, uses the count of each (POS) diveded by the length of the file and multiplied by 10000, to find the relative frequency of each POS. The function, ```unique_NERS```, uses SpaCys *named entity recognition* (NER) to count how many unique *person, location,* and *organizations* are used in each text file. The two next functions, *create_dataframe* and *save_function*
+
+
+
 - Unzips the zip file. Goes through each text in each folder, removes HTML tags, and uses spacy to get specific linguistic features, such as the relative frequency count of nouns, verbs, adjectives, and adverbs. Counts the number of unique persons, locations, and organizations. All information is then stored in one overall data frame for each folder, containing rows of each text. The data frame is then made into a CSV file and stored in the folder ```out```. In total 14 CSV files are created.
 
 ## Future usage of the code
