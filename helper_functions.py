@@ -8,8 +8,7 @@ import re
 
 # Importing systems library
 import os
-import sys
-sys.path.append(".")
+
 
 
 # Cleaning function
