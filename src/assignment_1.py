@@ -40,7 +40,7 @@ def unzip(args):
 
 
 
-def get_data(directory): # Making a function called find_attributes with the parameter directory
+def get_data(directory): # Making a function called get_data with the parameter directory
     # Making a for loop that finds each file and the path to that file, and saves it in a variable folder_path
     # os.listdir makes a list of the specified directory with all the files in the directory.
     # os.path.join joins the "file" to the path for the file.
