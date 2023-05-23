@@ -9,7 +9,7 @@ import re # maybe remove from this script
 # Importing systems library
 import os
 import sys
-sys.path.append(".")
+sys.path.append("utils")
 import zipfile 
 import argparse
 
@@ -54,7 +54,7 @@ def get_data(directory): # Making a function called get_data with the parameter 
             for file_name in os.listdir(folder_path):
                 file_path = os.path.join(folder_path, file_name)
                 # If statement that checks if the new file_path is a file, if yes it moves on and opens the file encoding it as latin-1 
-                # Latin-1 is used here, because the files could not be read with utf8. 
+                # Latin-1 is used here, because the files could not be read with utf-8. 
                 # the read file is placed in a new variable called text.
                 if os.path.isfile(file_path):
                     with open(file_path, 'r', encoding="latin-1") as file:
