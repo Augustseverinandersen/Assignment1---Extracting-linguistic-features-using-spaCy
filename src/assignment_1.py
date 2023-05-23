@@ -13,6 +13,8 @@ sys.path.append(".")
 import zipfile 
 import argparse
 
+# Funtions from utils folder 
+from helper_functions import clean_data, count_words, relative_frequence, unique_NERS, create_dataframe, save_function
 
 def input_parse():
     # initialize the parser
