@@ -1,10 +1,7 @@
 # Importing NLP library
-import spacy
-nlp = spacy.load("en_core_web_md") # loads the entire medium model spacy into the variable nlp # maybe remove from this script
 
 # Importing data manipulation library
 import pandas as pd
-import re # maybe remove from this script 
 
 # Importing systems library
 import os
