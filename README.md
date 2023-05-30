@@ -14,7 +14,7 @@ For each sub-folder (a1, a2, a3, ...) save a table which shows the following inf
 |etc|---|---|---|---|---|---|---|
 ## 1.2 Machine Specifications and My Usage
 
-All the computation done for this project was performed on the UCloud interactive HPC system, which is managed by the eScience Center at the University of Southern Denmark. The script was run on Coder Python 1.76.1 and Python version 3.9.2. I ran the script with 8 CPUs and it took nine minutes to complete.
+All the computation done for this project was performed on the UCloud interactive HPC system, which is managed by the eScience Center at the University of Southern Denmark. The script was run on Coder Python 1.76.1 and Python version 3.9.2. I ran the script with 8 CPUs, and it took nine minutes to complete.
 ### 1.2.1 Perquisites
 
 To run the script, make sure to have Bash and Python3 installed on your device. The script has only been tested on Ucloud.
