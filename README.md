@@ -14,7 +14,7 @@ For each sub-folder (a1, a2, a3, ...) save a table which shows the following inf
 |etc|---|---|---|---|---|---|---|
 ## 1.2 Machine Specifications and My Usage
 
-All the computation done for this project was performed on the UCloud interactive HPC system, which is managed by the eScience Center at the University of Southern Denmark. The script was run on Coder Python 1.76.1 and Python version 3.9.2.
+All the computation done for this project was performed on the UCloud interactive HPC system, which is managed by the eScience Center at the University of Southern Denmark. The script was run on Coder Python 1.76.1 and Python version 3.9.2. I ran the script with 8 CPUs and it took nine minutes to complete.
 ### 1.2.1 Perquisites
 
 To run the script, make sure to have Bash and Python3 installed on your device. The script has only been tested on Ucloud.
@@ -68,6 +68,6 @@ To run the script, follow these steps:
 - Get the zip file, _USEcorpus.zip_, from [here](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2457) and place it in the data folder (you might need to rename the zip file).
 - Run ``bash setup.sh`` in the command line. This will install the requirements and create virtual environment.
 - Run ``source ./assignment_1/bin/activate`` in the command line. This will activate the virtual environment.
-- Run ``python3 src/assignment_1.py --zip_namfe data/USEcorpus.zip`` in the command line. This will run the script.
+- Run ``python3 src/assignment_1.py --zip_name data/USEcorpus.zip`` in the command line. This will run the script.
     - The argparse ``--zip_name`` takes a string as input. Here you should define the path to your zip file. The path should be ``data/THE_ZIP_FILE.zip``
 - The CSV files for each folder will be saved to the folder out.

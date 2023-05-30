@@ -1,5 +1,3 @@
-# Importing NLP library
-
 # Importing data manipulation library
 import pandas as pd
 
@@ -57,7 +55,7 @@ def get_data(directory): # Making a function called get_data with the parameter 
                     with open(file_path, 'r', encoding="latin-1") as file:
                         text = file.read()
                     
-                    # Below are all functions created before. 
+                    # Below are all functions created in the script located in the utils folder. 
                     # Each file in each folder, goes through the code, and a csv file is created for that folder. Each row in
                     # That csv file is a text.
                     doc = clean_data(text)
